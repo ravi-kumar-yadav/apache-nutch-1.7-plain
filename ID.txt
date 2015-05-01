@@ -1,0 +1,3 @@
+This is Original Code, on which I am working.
+
+Hence it contains ORIGINAL NUTCH-1.7 CODE downloaded from http://archive.apache.org/dist/nutch/1.7/ [2.6M].
