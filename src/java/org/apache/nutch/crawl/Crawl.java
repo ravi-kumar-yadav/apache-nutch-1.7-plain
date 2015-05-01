@@ -74,22 +74,22 @@ public class Crawl extends Configured implements Tool {
     
     for (int i = 0; i < args.length; i++) {
       if ("-dir".equals(args[i])) {
-        dir = new Path(args[i+1]);
+        dir = new Path(args[i+1]);										//** Default is crawl-<getDate()> (dir)
         i++;
       } else if ("-threads".equals(args[i])) {
-        threads = Integer.parseInt(args[i+1]);
+        threads = Integer.parseInt(args[i+1]);							//** Default is 10
         i++;
       } else if ("-depth".equals(args[i])) {
-        depth = Integer.parseInt(args[i+1]);
+        depth = Integer.parseInt(args[i+1]);							//** Default is 5
         i++;
       } else if ("-topN".equals(args[i])) {
-          topN = Integer.parseInt(args[i+1]);
+          topN = Integer.parseInt(args[i+1]);							//** Default is Long.MAX_VALUE
           i++;
       } else if ("-solr".equals(args[i])) {
-        solrUrl = args[i + 1];
+        solrUrl = args[i + 1];											//** Default is null (solrUrl)
         i++;
       } else if (args[i] != null) {
-        rootUrlDir = new Path(args[i]);				//	Seed_URL Dir ???
+        rootUrlDir = new Path(args[i]);									//** Seed_URL Dir ??? , Deafult is null (rootUrlDir)
       }
     }
 
@@ -106,8 +106,8 @@ public class Crawl extends Configured implements Tool {
 
     FileSystem fs = FileSystem.get(job);
 
-    if (LOG.isInfoEnabled()) {
-      LOG.info("crawl started in: " + dir);
+    if (LOG.isInfoEnabled()) {													
+      LOG.info("crawl started in: " + dir);										// Makes Log entries
       LOG.info("rootUrlDir = " + rootUrlDir);
       LOG.info("threads = " + threads);
       LOG.info("depth = " + depth);      
@@ -116,7 +116,7 @@ public class Crawl extends Configured implements Tool {
         LOG.info("topN = " + topN);
     }
 
-    Path crawlDb = new Path(dir + "/crawldb");
+    Path crawlDb = new Path(dir + "/crawldb");									//** Creates internal folder for crawl in <dir> directory that we provide		
     Path linkDb = new Path(dir + "/linkdb");
     Path segments = new Path(dir + "/segments");
     Path indexes = new Path(dir + "/indexes");									// *Not created for swapnil's code
@@ -132,9 +132,10 @@ public class Crawl extends Configured implements Tool {
       
     // initialize crawlDb
     injector.inject(crawlDb, rootUrlDir);										// *Injecting URLs to CrawlDB, Only Once for any Crawl Process
+    																			//** Injector runs only once that too before initial round of run 
     int i;
-    for (i = 0; i < depth; i++) {             // generate new segment			
-      Path[] segs = generator.generate(crawlDb, segments, -1, topN, System
+    for (i = 0; i < depth; i++) {             // generate new segment			//** Each round means --> One Segment, Within each Segment multiple things happen
+      Path[] segs = generator.generate(crawlDb, segments, -1, topN, System		//** 
           .currentTimeMillis());
       if (segs == null) {
         LOG.info("Stopping at depth=" + i + " - no more URLs to fetch.");

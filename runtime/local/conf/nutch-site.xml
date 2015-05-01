@@ -4,4 +4,24 @@
 <!-- Put site-specific property overrides in this file. -->
 
 <configuration>
+
+<property>
+<name>http.agent.name</name>
+  <value>arjun</value>
+  <description>HTTP 'User-Agent' request header. MUST NOT be empty - 
+  please set this to a single word uniquely related to your organization.
+
+  NOTE: You should also check other related properties:
+
+	http.robots.agents
+	http.agent.description
+	http.agent.url
+	http.agent.email
+	http.agent.version
+
+  and set their values appropriately.
+
+  </description>
+</property>
+
 </configuration>
