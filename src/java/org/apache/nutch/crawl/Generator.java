@@ -484,7 +484,7 @@ public class Generator extends Configured implements Tool {
    * @throws IOException
    *           When an I/O error occurs
    */
-  public Path[] generate(Path dbDir, Path segments, int numLists, long topN,
+  public Path[] generate(Path dbDir, Path segments, int numLists, long topN,										//** Generator code to generate/prioritize new urls to be fetched
       long curTime, boolean filter, boolean norm, boolean force, int maxNumSegments)
       throws IOException {
 

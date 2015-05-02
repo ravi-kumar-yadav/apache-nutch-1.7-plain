@@ -116,6 +116,7 @@ public class Crawl extends Configured implements Tool {
         LOG.info("topN = " + topN);
     }
 
+ 
     Path crawlDb = new Path(dir + "/crawldb");									//** Creates internal folder for crawl in <dir> directory that we provide		
     Path linkDb = new Path(dir + "/linkdb");
     Path segments = new Path(dir + "/segments");
@@ -135,26 +136,26 @@ public class Crawl extends Configured implements Tool {
     																			//** Injector runs only once that too before initial round of run 
     int i;
     for (i = 0; i < depth; i++) {             // generate new segment			//** Each round means --> One Segment, Within each Segment multiple things happen
-      Path[] segs = generator.generate(crawlDb, segments, -1, topN, System		//** 
+      Path[] segs = generator.generate(crawlDb, segments, -1, topN, System		//** Generator job for each Segment
           .currentTimeMillis());
       if (segs == null) {
         LOG.info("Stopping at depth=" + i + " - no more URLs to fetch.");
         break;
       }
-      fetcher.fetch(segs[0], threads);  // fetch it
+      fetcher.fetch(segs[0], threads);  // fetch it								//** Fetcher Job
       if (!Fetcher.isParsing(job)) {
-        parseSegment.parse(segs[0]);    // parse it, if needed
+        parseSegment.parse(segs[0]);    // parse it, if needed					//** Parsing Job
       }
-      crawlDbTool.update(crawlDb, segs, true, true); // update crawldb
+      crawlDbTool.update(crawlDb, segs, true, true); // update crawldb			//** Updating only CrawlDB
     }
     if (i > 0) {
-      linkDbTool.invert(linkDb, segments, true, true, false); // invert links
+      linkDbTool.invert(linkDb, segments, true, true, false); // invert links	//** Not for each job, It just run once that too at-last
 
       if (solrUrl != null) {
         // index, dedup & merge
         FileStatus[] fstats = fs.listStatus(segments, HadoopFSUtil.getPassDirectoriesFilter(fs));
         
-        IndexingJob indexer = new IndexingJob(getConf());
+        IndexingJob indexer = new IndexingJob(getConf());						//** If Solr-URL is given then do Indexing job 
         indexer.index(crawlDb, linkDb, 
                 Arrays.asList(HadoopFSUtil.getPaths(fstats)));
 
@@ -166,7 +167,7 @@ public class Crawl extends Configured implements Tool {
     } else {
       LOG.warn("No URLs to fetch - check your seed list and URL filters.");
     }
-    if (LOG.isInfoEnabled()) { LOG.info("crawl finished: " + dir); }
+    if (LOG.isInfoEnabled()) { LOG.info("crawl finished: " + dir); }			//** Crawl finished message
     return 0;
   }
 
