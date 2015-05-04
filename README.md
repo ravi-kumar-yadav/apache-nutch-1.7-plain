@@ -17,8 +17,8 @@ My MTP2 Project
 3. Koi bhi tourism page ko positive me daalo
 
 ## Features
-1. Pos URL Tokens          :: Percentage of overlapping URL tokens in the already crawled URLs set.
-2. Pos Parent URL Tokens   :: Percentage of overlapping parents URL tokens in the already crawled URLS’ parent tokens set.
+1. **Pos URL Tokens**          :: Percentage of overlapping URL tokens in the already crawled URLs set.
+2. **Pos Parent URL Tokens**   :: Percentage of overlapping parents URL tokens in the already crawled URLS’ parent tokens set.
 3. Pos Anchor Text of URL  :: Percentage of overlapping anchor texts of the URL in the already crawled URLs’ anchor text set.
 4. Percentage of overlapping URL tokens in the already discarded URL tokens set.                      ::  Neg URL Tokens 
 5. Percentage of overlapping parents URL tokens in the already discarded URLS’ parent tokens set.     ::  Neg Parent URL Tokens
