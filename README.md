@@ -1,8 +1,6 @@
 # apache-nutch-1.7-plain
 Code is downloaded from apache site and being modified for MTP2
 
-
-# apache-nutch-1.7_domain
 My MTP2 Project
 
 ## Suggestions By Swapnil
