@@ -19,10 +19,10 @@ My MTP2 Project
 ## Features
 1. **Pos URL Tokens**          :: Percentage of overlapping URL tokens in the already crawled URLs set.
 2. **Pos Parent URL Tokens**   :: Percentage of overlapping parents URL tokens in the already crawled URLS’ parent tokens set.
-3. Pos Anchor Text of URL  :: Percentage of overlapping anchor texts of the URL in the already crawled URLs’ anchor text set.
-4. Percentage of overlapping URL tokens in the already discarded URL tokens set.                      ::  Neg URL Tokens 
-5. Percentage of overlapping parents URL tokens in the already discarded URLS’ parent tokens set.     ::  Neg Parent URL Tokens
-6. Percentage of overlapping anchor texts of the URL in the already discarded URLs’ anchor text set.  ::  Neg Anchor Text of URL
-7. Average parent scores of the URL.                                                                  ::  Average Parent Score
+3. **Pos Anchor Text of URL**  :: Percentage of overlapping anchor texts of the URL in the already crawled URLs’ anchor text set.
+4. **Neg URL Tokens**          :: Percentage of overlapping URL tokens in the already discarded URL tokens set.
+5. **Neg Parent URL Tokens**   :: Percentage of overlapping parents URL tokens in the already discarded URLS’ parent tokens set.
+6. **Neg Anchor Text of URL**  :: Percentage of overlapping anchor texts of the URL in the already discarded URLs’ anchor text set.
+7. **Average Parent Score**    :: Average parent scores of the URL.
 
 
