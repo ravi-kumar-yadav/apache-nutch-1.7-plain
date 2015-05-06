@@ -10,5 +10,5 @@ bin/nutch crawl urls -dir crawlDir -solr http://10.208.36.48:8983/solr/mycollect
 2. Added directory **ClassifierModels**
     * No files were added.
     * This directory is used to store the *train.txt*, *model*, *model.idx* files.
-    * *train.txt* file is created by step *1.(c)*.
-    * *model*, *model.idx* files are created while actually training the Classifier.
+    * *train.txt* file is created by step *1(c)*.
+    * *model*, *model.idx* files are created while actually training the Classifier i.e. *classifier.learn(trainingFile);*
