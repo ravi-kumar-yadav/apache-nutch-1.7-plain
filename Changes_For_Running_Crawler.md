@@ -8,7 +8,7 @@ bin/nutch crawl urls -dir crawlDir -solr http://10.208.36.48:8983/solr/mycollect
     * We have to create a train file for the initial training of Classifier (train.txt).
     * *appendTrainingData(buffer.toString(),trainingFile);* writes the Postive and Negative examples onto *train.txt* file.
 2. Added directory **ClassifierModels**
-    a. No files were added.
-    b. This directory is used to store the *train.txt*, *model*, *model.idx* files.
-    c. *train.txt* file is created by step *1.(c)*.
-    d. *model*, *model.idx* files are created while actually training the Classifier.
+    * No files were added.
+    * This directory is used to store the *train.txt*, *model*, *model.idx* files.
+    * *train.txt* file is created by step *1.(c)*.
+    * *model*, *model.idx* files are created while actually training the Classifier.
