@@ -8,8 +8,8 @@ bin/nutch crawl urls -dir crawlDir -solr http://10.208.36.48:8983/solr/mycollect
 
    ```java
       	ind = line.indexOf("]") + 1;
-	line = line.substring(ind);
-	line = line.trim();
+		line = line.substring(ind);
+		line = line.trim();
    ```
 
 ### Steps ###
