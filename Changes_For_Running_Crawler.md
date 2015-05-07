@@ -4,8 +4,7 @@ bin/nutch crawl urls -dir crawlDir -solr http://10.208.36.48:8983/solr/mycollect
 
 
 ###Need to Check### 
-[Search for Need to check this ???]
-1. Value of ParentScore is always '1.0f' in `getURLDetails(String url, String crawlDbPath)`
+1. Value of ParentScore is always '1.0f' in `getURLDetails(String url, String crawlDbPath)` method of class `Prioritizer.java`
 2. 
 
 
