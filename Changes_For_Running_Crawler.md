@@ -10,6 +10,7 @@ bin/nutch crawl urls -dir crawlDir -solr http://10.208.36.48:8983/solr/mycollect
 4. Some error in stopping the classifier `classifier.classify("Shutdown");`.
 5. Changed some code to support Incremental Classifier in an Efficient way and created one method `createIncTrainingFile(buffer.toString(),incTrainingFile);` to always create one separate file for training  containing data regarding newly classified URLs.
 6. Where are we changing the score of URLs being stored in CrawlDb, so that this score can be used by Generator to choose topN URLs in next iteration.
+7. We did not updated the `posUrlDetailBase` and `negUrlDetailBase` static variables for each depth.
 
 
 
