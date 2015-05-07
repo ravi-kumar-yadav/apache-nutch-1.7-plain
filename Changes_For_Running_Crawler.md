@@ -4,10 +4,11 @@ bin/nutch crawl urls -dir crawlDir -solr http://10.208.36.48:8983/solr/mycollect
 
 
 ###Need to Check
-1. Value of ParentScore is always '1.0f' in `getURLDetails(String url, String crawlDbPath)` method of class `Prioritizer.java`
+1. Value of ParentScore is always '1.0f' in `getURLDetails(String url, String crawlDbPath)` method of class `Prioritizer.java`.
 2. Current implementation already supports collation of un_fetched URLs till now at any depth.
 3. What about One-Class classifier.
-4. 
+4. Some error in stopping the classifier `classifier.classify("Shutdown");`.
+5. 
 
 
 
