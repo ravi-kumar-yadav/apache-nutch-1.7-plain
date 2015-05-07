@@ -5,6 +5,7 @@ bin/nutch crawl urls -dir crawlDir -solr http://10.208.36.48:8983/solr/mycollect
 ###Code Update###
 1. [][] changed *details.setFinalScore(-1.0f);* to *details.setFinalScore(1.0f);* becuase we should finalScore to be '1f' for positive examples not '-1f'.
 2. Commented following lines of code present in class `BaseSetLoader.java` and in method `updatePosBaseSetUsingDepth(Configuration configuration)`
+
    ```java
       	ind = line.indexOf("]") + 1;
 			line = line.substring(ind);
