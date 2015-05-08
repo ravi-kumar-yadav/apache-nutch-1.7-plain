@@ -18,6 +18,7 @@ package org.apache.nutch.tools;
 
 import java.io.IOException;
 import java.text.SimpleDateFormat;
+import java.util.HashSet;
 import java.util.Iterator;
 
 import org.slf4j.Logger;
@@ -60,7 +61,11 @@ public class CrawlDBScanner extends Configured implements Tool,
     Mapper<Text,CrawlDatum,Text,CrawlDatum>, Reducer<Text,CrawlDatum,Text,CrawlDatum> {
 
   public static final Logger LOG = LoggerFactory.getLogger(CrawlDBScanner.class);
-
+  
+  //** Added by Ravi
+  public static HashSet<String> urlinfo = new HashSet<String>();
+  
+  
   public CrawlDBScanner() {}
 
   public CrawlDBScanner(Configuration conf) {
@@ -187,4 +192,41 @@ public class CrawlDBScanner extends Configured implements Tool,
     }
   }
 
+  /*
+   * Added by Ravi
+   */
+  public HashSet<String> run2(String[] args) throws Exception {
+		if (args.length < 3) {
+			System.err.println("Usage: CrawlDBScanner <crawldb> <output> <regex> [-s <status>] <-text>");
+							// {crawlDb.toString(),prioritizeDb.toString(),"http://en\\.wikipedia\\.org/wiki/.*","-s","db_unfetched","-text"}
+			return null;
+		}
+
+		boolean text = false;
+
+		Path dbDir = new Path(args[0]);
+		Path output = new Path(args[1]);
+
+		String status = null;
+
+		for (int i = 2; i < args.length; i++) {
+			if (args[i].equals("-text")) {
+				text = true;
+			} else if (args[i].equals("-s")) {
+				i++;
+				status = args[i];
+			}
+		}
+
+		try {
+			urlinfo.clear();
+			//scan(Path crawlDb, Path outputPath, String regex, String status, boolean text)
+			scan(dbDir, output, args[2], status, text);
+			return urlinfo;
+		} catch (Exception e) {
+			LOG.error("CrawlDBScanner: " + StringUtils.stringifyException(e));
+			return null;
+		}
+	}
+  
 }

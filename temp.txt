@@ -1,0 +1,57 @@
+1	private String url;						
+	
+1	private HashSet<String> parents;	  // addParent
+1	private HashSet<String> anchorTextWords;  
+1	private HashSet<String> urlTokens;	  // simple list of strings, set by void setURLTokens(String url), Counter Method that just does the same without setting private variable "urlTokens" is  HashSet<String> getTokensForUrl(String url), Moreover void addParentURLTokens(String url) simply adds tokens to parentURLTokens directly without adding to "urlTokens"
+1	private HashSet<String> parentURLTokens;  
+1	private ArrayList<Float> parentScores;	  // addParentScore
+
+1	private String out = null;					
+1	private Float finalScore;
+	private float[] scores= new float[10];	
+	
+1	public static final int POS_URL_TOKEN_SCORE_INDEX = 1;
+1	public static final int POS_PARENT_URL_TOKEN_SCORE_INDEX = 2;
+1	public static final int POS_ANCHOR_WORD_SCORE_INDEX = 3;
+1	public static final int NEG_URL_TOKEN_SCORE_INDEX = 4;
+1	public static final int NEG_PARENT_URL_TOKEN_SCORE_INDEX = 5;
+1	public static final int NEG_ANCHOR_WORD_SCORE_INDEX = 6;
+1	public static final int POS_AVG_PARENT_SCORE_INDEX = 7;
+1	public static final int NEG_AVG_PARENT_SCORE_INDEX = 7;
+	
+	public static URLDetails posUrlDetailBase;
+	public static URLDetails negUrlDetailBase;
+
+	public static Float PARENT_SCORE_WEIGHT = 0.2f;
+	public static Float ANCHORTEXT_WEIGHT= 0.2f;
+	public static Float URL_TOKEN_WEIGHT= 0.2f;
+	public static Float PARENT_URL_TOKEN_WEIGHT= 0.2f;
+	public static Float NO_OF_PARENTS_WEIGHT= 0.2f;
+
+
+		Input				Method			Output (Add to these var)
+	HashSet<String> anchorTexts	addParentAnchorTextsToStatic	(P)anchorTextWords
+	String url			addParentURLToStatic		(P)parents, parentURLTokens
+	URLDetails details		addURLDetailsToPosStatic	(P)parents, anchorTextWords, parentURLTokens, urlTokens
+	URLDetails details		addURLDetailsToNegStatic	(N)parents, anchorTextWords, parentURLTokens, urlTokens
+
+
+	Void setScores() {
+1	this.scores[POS_URL_TOKEN_SCORE_INDEX] = getScore(urlTokens, posUrlDetailBase.urlTokens);
+2	this.scores[POS_PARENT_URL_TOKEN_SCORE_INDEX] = getScore(parentURLTokens, posUrlDetailBase.parentURLTokens);
+3	this.scores[POS_ANCHOR_WORD_SCORE_INDEX] = getScore(this.anchorTextWords, posUrlDetailBase.anchorTextWords);
+
+4	this.scores[NEG_URL_TOKEN_SCORE_INDEX] = getScore(urlTokens, negUrlDetailBase.urlTokens);
+5	this.scores[NEG_PARENT_URL_TOKEN_SCORE_INDEX] = getScore(parentURLTokens, negUrlDetailBase.parentURLTokens);
+6	this.scores[NEG_ANCHOR_WORD_SCORE_INDEX] = getScore(this.anchorTextWords, negUrlDetailBase.anchorTextWords);
+		
+	//FIXME check how to differenttaite between +ve n -ve parent scores
+7	this.scores[POS_AVG_PARENT_SCORE_INDEX] = getScore(parentScores);
+7	this.scores[NEG_AVG_PARENT_SCORE_INDEX] = getScore(parentScores);
+	}
+
+
+	
+
+
+	

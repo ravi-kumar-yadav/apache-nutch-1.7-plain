@@ -585,4 +585,22 @@ public class CrawlDbReader implements Closeable {
     }
     return;
   }
+
+
+  /*
+   * Added by Ravi
+   */
+  public CrawlDatum readUrlDatum(String crawlDb, String url, Configuration config) throws IOException {
+	    CrawlDatum res = get(crawlDb, url, config);
+//	    System.out.println("URL: " + url);
+//	    if (res != null) {
+////	      System.out.println(res);
+//	    } else {
+////	      System.out.println("not found");
+//	    }
+		return res;
+	  }
+
+  
+
 }

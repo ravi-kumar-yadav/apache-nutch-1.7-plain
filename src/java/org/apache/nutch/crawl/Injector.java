@@ -250,6 +250,7 @@ public class Injector extends Configured implements Tool {
     setConf(conf);
   }
   
+  //** Injects URL in CrawlDb, Which are later used by Generator to fetch
   public void inject(Path crawlDb, Path urlDir) throws IOException {
     SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
     long start = System.currentTimeMillis();
@@ -260,14 +261,14 @@ public class Injector extends Configured implements Tool {
     }
 
     Path tempDir =
-      new Path(getConf().get("mapred.temp.dir", ".") +
-               "/inject-temp-"+
+      new Path(getConf().get("mapred.temp.dir", ".") + "/inject-temp-" +
                Integer.toString(new Random().nextInt(Integer.MAX_VALUE)));
 
     // map text input file to a <url,CrawlDatum> file
     if (LOG.isInfoEnabled()) {
       LOG.info("Injector: Converting injected urls to crawl db entries.");
     }
+    
     JobConf sortJob = new NutchJob(getConf());
     sortJob.setJobName("inject " + urlDir);
     FileInputFormat.addInputPath(sortJob, urlDir);

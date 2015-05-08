@@ -97,4 +97,19 @@ public class Inlinks implements Writable {
     return results.toArray(new String[results.size()]);
   }
 
+  
+  /*
+   * Added by Ravi
+   */
+  public HashSet<Inlink> getInlinks() {
+		return inlinks;
+	}
+
+  /*
+   * Added by Ravi
+   */
+  public void setInlinks(HashSet<Inlink> inlinks) {
+		this.inlinks = inlinks;
+	}
+  
 }

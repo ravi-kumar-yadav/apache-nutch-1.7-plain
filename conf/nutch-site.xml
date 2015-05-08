@@ -24,4 +24,412 @@
   </description>
 </property>
 
+
+<property>
+  <name>WORKSPACE_HOME</name>
+  <value>/home/ravi/MTP2</value>
+ <!--  <value>/home/arjun/Workspaces/CrawlExpt</value> -->
+  <description>Directories where nutch plugins are located.  Each
+  element may be a relative or absolute path.  If absolute, it is used
+  as is.  If relative, it is searched for on the classpath.</description>
+</property>
+
+
+<property>
+  <name>PROJECT_HOME</name>
+  <value>${WORKSPACE_HOME}/apache-nutch-1.7-plain</value>
+  <!-- <value>${WORKSPACE_HOME}/nutch-1.7</value> -->
+  <description>Directories where nutch plugins are located.  Each
+  element may be a relative or absolute path.  If absolute, it is used
+  as is.  If relative, it is searched for on the classpath.</description>
+</property>
+
+
+<property>
+  <name>TinySVMClassifier</name>
+  <value>${WORKSPACE_HOME}/TinySVM-0.09/src</value>
+  <!--<value>/home/arjun/Workspaces/CrawlExpt/apache-nutch-1.7</value>-->
+  <description>Directories where nutch plugins are located.  Each
+  element may be a relative or absolute path.  If absolute, it is used
+  as is.  If relative, it is searched for on the classpath.</description>
+</property>
+
+
+
+<property>
+  <name>ClassifierModelPath</name>
+  <value>${PROJECT_HOME}/ClassifierModels</value>
+  <!--<value>/home/arjun/Workspaces/CrawlExpt/apache-nutch-1.7</value>-->
+  <description>Directories where nutch plugins are located.  Each
+  element may be a relative or absolute path.  If absolute, it is used
+  as is.  If relative, it is searched for on the classpath.</description>
+</property>
+
+
+
+<property>
+  <name>training_file</name>
+  <value>${ClassifierModelPath}/train.txt</value>
+  <!--<value>/home/arjun/Workspaces/CrawlExpt/apache-nutch-1.7</value>-->
+  <description>training file for classifier</description>
+</property>
+
+
+
+<property>
+  <name>incTrainingFile</name>
+  <value>${ClassifierModelPath}/incTrain.txt</value>
+  <!--<value>/home/arjun/Workspaces/CrawlExpt/apache-nutch-1.7</value>-->
+  <description>training file for classifier</description>
+</property>
+
+
+
+<property>
+  <name>classifier_server_ip</name>
+  <value>127.0.0.1</value>
+  <!--<value>/home/arjun/Workspaces/CrawlExpt/apache-nutch-1.7</value>-->
+  <description>ip for classifier server</description>
+</property>
+
+
+
+<property>
+  <name>classifier_server_port</name>
+  <value>9876</value>
+  <!--<value>/home/arjun/Workspaces/CrawlExpt/apache-nutch-1.7</value>-->
+  <description>port for classifier server</description>
+</property>
+
+
+
+<property>
+  <name>outputFolder</name>
+  <value>${PROJECT_HOME}/outputFolder</value>
+  <!--<value>/home/arjun/Workspaces/CrawlExpt/apache-nutch-1.7</value>-->
+  <description>Directories where nutch plugins are located.  Each
+  element may be a relative or absolute path.  If absolute, it is used
+  as is.  If relative, it is searched for on the classpath.</description>
+</property>
+
+
+<property>
+  <name>negative_set</name>
+  <value>${PROJECT_HOME}/resources/negativeSet.txt</value>
+  <description>File containing details to be loaded in negative base set</description>
+</property>
+
+
+
+<property>
+  <name>positive_set</name>
+  <value>${PROJECT_HOME}/resources/positiveSet.txt</value>
+  <description>File containing details to be loaded in positive base set</description>
+</property>
+
+
+
+<property>
+  <name>plugin.folders</name>
+  <value>${PROJECT_HOME}/build/plugins</value>
+  <!--<value>/home/arjun/Workspaces/CrawlExpt/apache-nutch-1.7/runtime/local/plugins</value>-->
+  <description>Directories where nutch plugins are located.  Each
+  element may be a relative or absolute path.  If absolute, it is used
+  as is.  If relative, it is searched for on the classpath.</description>
+</property>
+
+
+<property>
+  <name>plugin.includes</name>
+  <value>protocol-(http|wiki)|urlfilter-regex|parse-(html|tika|wiki)|index-(basic|anchor)|indexer-solr|scoring-opic|urlnormalizer-(pass|regex|basic)</value>
+  <description>Regular expression naming plugin directory names to
+  include.  Any plugin not matching this expression is excluded.
+  In any case you need at least include the nutch-extensionpoints plugin. By
+  default Nutch includes crawling just HTML and plain text via HTTP,
+  and basic indexing and search plugins. In order to use HTTPS please enable 
+  protocol-httpclient, but be aware of possible intermittent problems with the 
+  underlying commons-httpclient library.
+  </description>
+</property>
+
+
+<property>
+  <name>parser.character.encoding.default</name>
+  <value>UTF-8</value>
+  <description>The character encoding to fall back to when no other information
+  is available</description>
+</property>
+
+
+
+<property>
+  <name>http.content.limit</name>
+  <value>-1</value>
+  <description>The length limit for downloaded content using the http://
+  protocol, in bytes. If this value is nonnegative (>=0), content longer
+  than it will be truncated; otherwise, no truncation at all. Do not
+  confuse this setting with the file.content.limit setting.
+  </description>
+</property>
+
+
+
+<property>
+  <name>db.default.fetch.interval</name>
+  <value>1</value>
+  <description>(DEPRECATED) The default number of days between re-fetches of a page.
+  </description>
+</property>
+
+
+
+<property>
+  <name>db.fetch.interval.default</name>
+  <value>86400</value>
+  <description>The default number of seconds between re-fetches of a page ().
+  </description>
+</property>
+
+
+
+<property>
+  <name>db.fetch.interval.max</name>
+  <value>86400</value>
+  <description>The maximum number of seconds between re-fetches of a page
+  (12 hrs). After this period every page in the db will be re-tried, no
+  matter what is its status.
+  </description>
+</property>
+
+
+
+<property>
+  <name>db.fetch.schedule.adaptive.min_interval</name>
+  <value>20.0</value>
+  <description>Minimum fetchInterval, in seconds.</description>
+</property>
+
+
+
+<property>
+  <name>db.fetch.schedule.adaptive.max_interval</name>
+  <value>86400.0</value>
+  <description>Maximum fetchInterval, in seconds (1 day).
+  NOTE: this is limited by db.fetch.interval.max. Pages with
+  fetchInterval larger than db.fetch.interval.max
+  will be fetched anyway.</description>
+</property>
+
+
+
+
+<property>
+  <name>db.update.additions.allowed</name>
+  <value>true</value>
+  <description>If true, updatedb will add newly discovered URLs, if false
+  only already existing URLs in the CrawlDb will be updated and no new
+  URLs will be added.
+  </description>
+</property>
+
+
+
+<property>
+  <name>db.fetch.schedule.class</name>
+  <value>org.apache.nutch.crawl.AdaptiveFetchSchedule</value>
+  <description>The implementation of fetch schedule. DefaultFetchSchedule simply
+  adds the original fetchInterval to the last fetch time, regardless of
+  page changes.</description>
+</property>
+
+
+
+<property>
+  <name>generate.max.count</name>
+  <value>-1</value>
+  <description>The maximum number of urls in a single
+  fetchlist.  -1 if unlimited. The urls are counted according
+  to the value of the parameter generator.count.mode.
+  </description>
+</property>
+
+<property>
+  <name>generate.count.mode</name>
+  <value>host</value>
+  <description>Determines how the URLs are counted for generator.max.count.
+  Default value is 'host' but can be 'domain'. Note that we do not count 
+  per IP in the new version of the Generator.
+  </description>
+</property>
+
+<property>
+  <name>db.ignore.internal.links</name>
+  <value>false</value>
+  <description>If true, when adding new links to a page, links from
+  the same host are ignored.  This is an effective way to limit the
+  size of the link database, keeping only the highest quality
+  links.
+  </description>
+</property>
+
+
+
+ <property>
+  <name>db.injector.overwrite</name>
+  <value>false</value>
+  <description>Whether existing records in the CrawlDB will be overwritten
+  by injected records.
+  </description>
+</property>
+
+<property>
+  <name>db.score.injected</name>
+  <value>1.0</value>
+  <description>The score of new pages added by the injector.
+  </description>
+</property>
+
+<property>
+  <name>db.score.link.external</name>
+  <value>1.0</value>
+  <description>The score factor for new pages added due to a link from
+  another host relative to the referencing page's score. Scoring plugins
+  may use this value to affect initial scores of external links.
+  </description>
+</property>
+
+<property>
+  <name>db.score.link.internal</name>
+  <value>1.0</value>
+  <description>The score factor for pages added due to a link from the
+  same host, relative to the referencing page's score. Scoring plugins
+  may use this value to affect initial scores of internal links.
+  </description>
+</property>
+
+<property>
+  <name>db.score.count.filtered</name>
+  <value>false</value>
+  <description>The score value passed to newly discovered pages is
+  calculated as a fraction of the original page score divided by the
+  number of outlinks. If this option is false, only the outlinks that passed
+  URLFilters will count, if it's true then all outlinks will count.
+  </description>
+</property>
+
+<property>
+  <name>db.max.inlinks</name>
+  <value>10000</value>
+  <description>Maximum number of Inlinks per URL to be kept in LinkDb.
+  If "invertlinks" finds more inlinks than this number, only the first
+  N inlinks will be stored, and the rest will be discarded.
+  </description>
+</property>
+
+<property>
+  <name>db.max.outlinks.per.page</name>
+  <value>100</value>
+  <description>The maximum number of outlinks that we'll process for a page.
+  If this value is nonnegative (>=0), at most db.max.outlinks.per.page outlinks
+  will be processed for a page; otherwise, all outlinks will be processed.
+  </description>
+</property>
+
+<property>
+  <name>db.max.anchor.length</name>
+  <value>100</value>
+  <description>The maximum number of characters permitted in an anchor.
+  </description>
+</property>
+
+<property>
+  <name>file.content.limit</name>
+  <value>-1</value>
+  <description>The length limit for downloaded content using the file://
+  protocol, in bytes. If this value is nonnegative (>=0), content longer
+  than it will be truncated; otherwise, no truncation at all. Do not
+  confuse this setting with the http.content.limit setting.
+  </description>
+</property>
+  
+<property>
+  <name>file.crawl.parent</name>
+  <value>false</value>
+  <description>The crawler is not restricted to the directories that you specified in the
+    Urls file but it is jumping into the parent directories as well. For your own crawlings you can
+    change this bahavior (set to false) the way that only directories beneath the directories that you specify get
+    crawled.</description>
+</property>
+
+<property>
+  <name>file.content.ignored</name>
+  <value>true</value>
+  <description>If true, no file content will be saved during fetch.
+  And it is probably what we want to set most of time, since file:// URLs
+  are meant to be local and we can always use them directly at parsing
+  and indexing stages. Otherwise file contents will be saved.
+  !! NO IMPLEMENTED YET !!
+  </description>
+</property>
+
+<property>
+  <name>link.ignore.internal.host</name>
+  <value>false</value>
+  <description>Ignore outlinks to the same hostname.</description>
+</property>
+
+<property>
+  <name>link.ignore.internal.domain</name>
+  <value>false</value>
+  <description>Ignore outlinks to the same domain.</description>
+</property>
+
+<property>
+  <name>db.ignore.external.links</name>
+  <value>true</value>
+  <description>If true, outlinks leading from a page to external hosts
+  will be ignored. This is an effective way to limit the crawl to include
+  only initially injected hosts, without creating complex URLFilters.
+  </description>
+</property>
+
+<property>
+  <name>db.max.outlinks.per.page</name>
+  <value>-1</value>
+  <description>The maximum number of outlinks that we'll process for a page.
+  If this value is nonnegative (>=0), at most db.max.outlinks.per.page outlinks
+  will be processed for a page; otherwise, all outlinks will be processed.
+  </description>
+</property>
+
+<property>
+  <name>db.max.anchor.length</name>
+  <value>10000</value>
+  <description>The maximum number of characters permitted in an anchor.
+  </description>
+</property>
+
+<property>
+  <name>parser.html.outlinks.ignore_tags</name>
+  <value>img,script,link</value>
+  <description>Comma separated list of HTML tags, from which outlinks 
+  shouldn't be extracted. Nutch takes links from: a, area, form, frame, 
+  iframe, script, link, img. If you add any of those tags here, it
+  won't be taken. Default is empty list. Probably reasonable value
+  for most people would be "img,script,link".</description>
+</property>
+<!-- scoring filters properties -->
+
+<!-- <property>
+  <name>scoring.filter.order</name>
+  <value>org.apache.nutch.scoring.urlmeta.URLMetaScoringFilter</value>
+  <description>The order in which scoring filters are applied.
+  This may be left empty (in which case all available scoring
+  filters will be applied in the order defined in plugin-includes
+  and plugin-excludes), or a space separated list of implementation
+  classes.
+  </description>
+</property> -->
+
+
 </configuration>
