@@ -23,6 +23,7 @@ bin/nutch crawl urls -dir crawlDir -solr http://10.208.36.48:8983/solr/mycollect
 		URLDetails.negUrlDetailBase.getParentURLTokens().addAll(urlDetails.getParentURLTokens());
 		URLDetails.negUrlDetailBase.getUrlTokens().addAll(urlDetails.getUrlTokens());
 	```
+8. Lot of `no link information. in Prioritizer` message pops-up even when we run crawler with `-depth 2 -topN 10`. This shows that there is no parent information(inlinks) in **crawldb**.
 
 
 
