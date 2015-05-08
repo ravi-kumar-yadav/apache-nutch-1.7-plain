@@ -13,15 +13,15 @@ bin/nutch crawl urls -dir crawlDir -solr http://10.208.36.48:8983/solr/mycollect
 7. We did not updated the `posUrlDetailBase` and `negUrlDetailBase` static variables for each depth. So I added following code.
 	```java
 	
-			//** Updating Positive Feature Pool
-			URLDetails.posUrlDetailBase.getAnchorTextWords().addAll(details.getAnchorTextWords());
-			URLDetails.posUrlDetailBase.getParentURLTokens().addAll(details.getParentURLTokens());
-			URLDetails.posUrlDetailBase.getUrlTokens().addAll(details.getUrlTokens());
+		//** Updating Positive Feature Pool
+		URLDetails.posUrlDetailBase.getAnchorTextWords().addAll(details.getAnchorTextWords());
+		URLDetails.posUrlDetailBase.getParentURLTokens().addAll(details.getParentURLTokens());
+		URLDetails.posUrlDetailBase.getUrlTokens().addAll(details.getUrlTokens());
 			
-			//** Updating Negative Feature Pool
-			URLDetails.negUrlDetailBase.getAnchorTextWords().addAll(urlDetails.getAnchorTextWords());
-			URLDetails.negUrlDetailBase.getParentURLTokens().addAll(urlDetails.getParentURLTokens());
-			URLDetails.negUrlDetailBase.getUrlTokens().addAll(urlDetails.getUrlTokens());
+		//** Updating Negative Feature Pool
+		URLDetails.negUrlDetailBase.getAnchorTextWords().addAll(urlDetails.getAnchorTextWords());
+		URLDetails.negUrlDetailBase.getParentURLTokens().addAll(urlDetails.getParentURLTokens());
+		URLDetails.negUrlDetailBase.getUrlTokens().addAll(urlDetails.getUrlTokens());
 	```
 
 
