@@ -27,8 +27,9 @@ bin/nutch crawl urls -dir crawlDir -solr http://10.208.36.48:8983/solr/mycollect
 
 
 ###Tasks###
+
 Date | Task | Status
------------- | -------------
+------------ | ------------- | -------------
 09 May | Understand seed url concept | Pending
 09 May | Check Score gets reflected in crawldb | Pending
 09 May | Working of Classifier | Pending
