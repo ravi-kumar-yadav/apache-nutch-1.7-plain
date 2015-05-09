@@ -511,7 +511,6 @@ public class URLDetails implements WritableComparable<URLDetails>{
 //		buffer.append(NO_NEG_PARENT_INDEX+":"+scores[NO_NEG_PARENT_INDEX]);
 		
 		
-		
 		return buffer.toString();
 	}
 

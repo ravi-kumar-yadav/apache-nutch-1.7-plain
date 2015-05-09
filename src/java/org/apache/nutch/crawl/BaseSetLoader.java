@@ -111,7 +111,7 @@ public class BaseSetLoader {
 			s = s.replaceAll(" ", "");
 			String arr[] = s.split(",");
 			//***********
-			System.out.println("\n\n\nURL Tokens : "+s);
+			//System.out.println("\n\n\nURL Tokens : "+s);
 			//***********	
 			
 			//** Adds "url" to "urlTokens" instance variable (after splitting, lower-casing and removing any stopword)
@@ -127,7 +127,7 @@ public class BaseSetLoader {
 			s = s.replaceAll("[\\[\\]]", "");
 			s = s.replaceAll(" ", "");
 			arr = s.split(",");
-			System.out.println("\n\n\nParent Score : "+s);
+			//System.out.println("\n\n\nParent Score : "+s);
 			
 			//** Adds all comma separated "float" values to instance variable ArrayList<Float> parentScores 
 			details.getParentScores().addAll(arrayAsList(arr));		//	private ArrayList<Float> parentScores	
@@ -142,7 +142,7 @@ public class BaseSetLoader {
 			s = s.replaceAll("[\\[\\]]", "");
 			s = s.replaceAll(" ", "");
 			arr = s.split(",");
-			System.out.println("\n\n\nParent URL Tokens : "+s);
+			//System.out.println("\n\n\nParent URL Tokens : "+s);
 			
 			//** Adds all comma separated "string" values to instance variable HashSet<String> parentURLTokens;
 			details.getParentURLTokens().addAll(arrayAsSet(arr));	// private HashSet<String> parentURLTokens;
@@ -156,7 +156,7 @@ public class BaseSetLoader {
 			s = s.replaceAll("[\\[\\]]", "");
 			s = s.replaceAll(" ", "");
 			arr = s.split(",");
-			System.out.println("\n\n\nAnchor Tokens Text : "+s);
+			//System.out.println("\n\n\nAnchor Tokens Text : "+s);
 			
 			//** Adds all comma separated "string" values to instance variable HashSet<String> anchorTextWords;
 			details.getAnchorTextWords().addAll(arrayAsSet(arr));	// private HashSet<String> anchorTextWords;
@@ -203,7 +203,7 @@ public class BaseSetLoader {
 			// System.out.println("+++"+line);
 			String s = line.substring(0, ind);
 			//***********
-			System.out.println("\n\n\nURL Tokens : "+s);
+			//System.out.println("\n\n\nURL Tokens : "+s);
 			//***********	
 			s = s.trim();
 			s = s.replaceAll("[\\[\\]]", "");
@@ -211,15 +211,15 @@ public class BaseSetLoader {
 			String arr[] = s.split(",");
 			details.setURLTokens(url);
 			
-			
-
+						
+			line = line.substring(ind);
 			ind = line.indexOf("[");
 			line = line.substring(ind);
 			ind = line.indexOf("]") + 1;
 			// System.out.println("+++"+line);
 			s = line.substring(0, ind);
 			//***********
-			System.out.println("\n\n\nParent Score : "+s);
+			//System.out.println("\n\n\nParent Score : "+s);
 			//***********	
 			s = s.trim();
 			s = s.replaceAll("[\\[\\]]", "");
@@ -237,7 +237,7 @@ public class BaseSetLoader {
 			// System.out.println("+++"+line);
 			s = line.substring(0, ind);
 			//***********
-			System.out.println("\n\n\nParent URL Tokens : "+s);
+			//System.out.println("\n\n\nParent URL Tokens : "+s);
 			//***********	
 			s = s.trim();
 			s = s.replaceAll("[\\[\\]]", "");
@@ -254,7 +254,7 @@ public class BaseSetLoader {
 			// System.out.println("+++"+line);
 			s = line.substring(0, ind);
 			//***********
-			System.out.println("\n\n\nAnchor Text Words : "+s);
+			//System.out.println("\n\n\nAnchor Text Words : "+s);
 			//***********	
 			s = s.trim();
 			s = s.replaceAll("[\\[\\]]", "");

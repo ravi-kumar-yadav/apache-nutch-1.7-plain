@@ -32,6 +32,8 @@ public class Classifier{
 			//../src/svm_learn  train2.svmdata model
 			String svmPath=conf.get("TinySVMClassifier");
 			String modelFilePath = conf.get("ClassifierModelPath");
+			
+			//										svm_learn -I	train 			model
 			p = Runtime.getRuntime().exec(svmPath+"/svm_learn -I "+inpFile+" "+modelFilePath+"/model");
 	  		p.waitFor();
 	  	}
@@ -43,11 +45,39 @@ public class Classifier{
 	  	return 1;
 	}
 
+
+	// It takes old model file(model_temp) and new train file(incTrain.txt) and create new model(model)
+	public int incLearn(String inpFile){
+		try{
+			// cat model > model_temp
+			// ../src/svm_learn -I -M model_temp inpFile model
+			String svmPath=conf.get("TinySVMClassifier");
+			String modelFilePath = conf.get("ClassifierModelPath");
+			p = Runtime.getRuntime().exec("cat "+modelFilePath+"/model > "+modelFilePath+"/model_temp");
+			p.waitFor();
+												//	svm_learn -I -M 	model_temp 					inpFile 		model
+			p = Runtime.getRuntime().exec(svmPath+"/svm_learn -I -M "+modelFilePath+"/model_temp "+inpFile+" "+modelFilePath+"/model");
+	  		p.waitFor();
+	  		p = Runtime.getRuntime().exec("rm -f "+modelFilePath+"/model_temp");
+	  		p.waitFor();
+	  	}
+	  	catch(Exception e){
+	  		e.printStackTrace();
+	  		return -1;
+	  	}
+
+	  	return 1;
+	}
+	
+	
+	// It start a Classifier at a given port
 	public void startClassifier(){
 		try{
-			//
+			//			
+			String svmPath = conf.get("TinySVMClassifier");
 			String modelFilePath = conf.get("ClassifierModelPath");
-			String svmPath = conf.get("TinySVMClassifier"); 
+			
+			//										svm_classify -V test.svmdata model
 			p = Runtime.getRuntime().exec(svmPath+"/svm_classify "+modelFilePath+"/model " + (++serverPort));
 //	  		p.waitFor();
 			System.out.println("port = "+serverPort);
@@ -68,6 +98,7 @@ public class Classifier{
 	}
 	
 	
+	// It creates an "client" socket object that listens to the port and serves the request 
 	public float classify(String test){
 		float score=(float) 0.00;
 		try{
@@ -81,7 +112,7 @@ public class Classifier{
 	        	break;
 			} catch (Exception e) {
 				// TODO: handle exception
-				System.out.println("Got exception");
+				System.out.println("Got exception : " +e.getMessage());
 			}
 	        }
 	        System.out.println("Just connected to "
@@ -98,7 +129,7 @@ public class Classifier{
 	            out.flush();
 	            
 	            String response = reader.readLine();
-	            System.out.println(response);
+	            //System.out.println("Inside Classifier : "+response);
 	            if(response==null||"nan".equalsIgnoreCase(response)) {
 	            	System.out.println("Got nan for :"+test);
 	            	return -100;
@@ -123,24 +154,4 @@ public class Classifier{
 
 	}
 
-	public int incLearn(String inpFile){
-		try{
-			// cat model > model_temp
-			// ../src/svm_learn -I -M model_temp inpFile model
-			String svmPath=conf.get("TinySVMClassifier");
-			String modelFilePath = conf.get("ClassifierModelPath");
-			p = Runtime.getRuntime().exec("cat "+modelFilePath+"/model > "+modelFilePath+"/model_temp");
-			p.waitFor();
-			p = Runtime.getRuntime().exec(svmPath+"/svm_learn -I -M "+modelFilePath+"/model_temp "+inpFile+" "+modelFilePath+"/model");
-	  		p.waitFor();
-	  		p = Runtime.getRuntime().exec("rm -f "+modelFilePath+"/model_temp");
-	  		p.waitFor();
-	  	}
-	  	catch(Exception e){
-	  		e.printStackTrace();
-	  		return -1;
-	  	}
-
-	  	return 1;
-	}
 }

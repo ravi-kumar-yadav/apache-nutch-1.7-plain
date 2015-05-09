@@ -21,10 +21,9 @@ import java.text.SimpleDateFormat;
 import java.util.HashSet;
 import java.util.Iterator;
 
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.conf.Configured;
+import org.apache.hadoop.fs.FileSystem;
 import org.apache.hadoop.fs.Path;
 import org.apache.hadoop.io.Text;
 import org.apache.hadoop.mapred.FileInputFormat;
@@ -43,9 +42,12 @@ import org.apache.hadoop.util.Tool;
 import org.apache.hadoop.util.ToolRunner;
 import org.apache.nutch.crawl.CrawlDatum;
 import org.apache.nutch.crawl.CrawlDb;
+import org.apache.nutch.crawl.URLDetails;
 import org.apache.nutch.util.NutchConfiguration;
 import org.apache.nutch.util.NutchJob;
 import org.apache.nutch.util.TimingUtil;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 /**
  * Dumps all the entries matching a regular expression on their URL. Generates a
@@ -100,30 +102,69 @@ public class CrawlDBScanner extends Configured implements Tool,
     while (values.hasNext()) {
       CrawlDatum val = values.next();
       output.collect(key, val);
+      //System.out.println("Data in Reducer Text : " + key.toString());
+      urlinfo.add(key.toString());
     }
   }
 
   private void scan(Path crawlDb, Path outputPath, String regex, String status,
       boolean text) throws IOException {
 
+	Configuration conf = new Configuration();
+	  
     SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
     long start = System.currentTimeMillis();
     LOG.info("CrawlDB scanner: starting at " + sdf.format(start));
 
     JobConf job = new NutchJob(getConf());
-
+    
+    // Set the name of the Job
     job.setJobName("Scan : " + crawlDb + " for URLS matching : " + regex);
 
+    // Set the output Key type for the Mapper
+    job.setMapOutputKeyClass(Text.class);
+     
+    // Set the output Value type for the Mapper
+    job.setMapOutputValueClass(CrawlDatum.class);
+     
+    // Set the output Key type for the Reducer
+    job.setOutputKeyClass(Text.class);
+     
+    // Set the output Value type for the Reducer
+    job.setOutputValueClass(CrawlDatum.class);
+    
+    // Set the Mapper Class
+    job.setMapperClass(CrawlDBScanner.class);
+     
+    // Set the Reducer Class
+    job.setReducerClass(CrawlDBScanner.class);
+    
+    
+    // Set the format of the input that will be provided to the program
+    job.setInputFormat(SequenceFileInputFormat.class);
+     
+    // Set the format of the output for the program
+    job.setOutputFormat(TextOutputFormat.class);
+     
+    // Set the location from where the Mapper will read the input
+    //FileInputFormat.setInputPaths(job, new Path(args[0]));
+    FileInputFormat.addInputPath(job, new Path(crawlDb, CrawlDb.CURRENT_NAME));
+     
+    // Set the location where the Reducer will write the output
+    FileOutputFormat.setOutputPath(job, outputPath);
+     
+    
     job.set("CrawlDBScanner.regex", regex);
     if (status != null) job.set("CrawlDBScanner.status", status);
 
-    FileInputFormat.addInputPath(job, new Path(crawlDb, CrawlDb.CURRENT_NAME));
-    job.setInputFormat(SequenceFileInputFormat.class);
 
-    job.setMapperClass(CrawlDBScanner.class);
-    job.setReducerClass(CrawlDBScanner.class);
-
-    FileOutputFormat.setOutputPath(job, outputPath);
+    //** Newly Added Code to remove any intermediate file created by Hadoop
+    FileSystem fs = FileSystem.get(conf);
+    if (fs.exists(outputPath)) {
+    fs.delete(outputPath, true);
+    }
+    
+    
 
     // if we want a text dump of the entries
     // in order to check something - better to use the text format and avoid
@@ -139,14 +180,10 @@ public class CrawlDBScanner extends Configured implements Tool,
       job.setOutputFormat(MapFileOutputFormat.class);
     }
 
-    job.setMapOutputKeyClass(Text.class);
-    job.setMapOutputValueClass(CrawlDatum.class);
-
-    job.setOutputKeyClass(Text.class);
-    job.setOutputValueClass(CrawlDatum.class);
 
     try {
-      JobClient.runJob(job);
+    	// Run the job on the cluster
+    	JobClient.runJob(job);
     } catch (IOException e) {
       throw e;
     }

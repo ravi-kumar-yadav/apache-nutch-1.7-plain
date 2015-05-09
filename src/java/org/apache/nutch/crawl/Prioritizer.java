@@ -95,7 +95,7 @@ public class Prioritizer {
 		          }
 		          urlDetails.setURLTokens(urlDetails.getUrl());
 		          
-		          System.out.println(urlDetails.toString());
+		          //System.out.println(urlDetails.toString());
 		          return urlDetails;
 		        }
 		} catch (IOException e) {

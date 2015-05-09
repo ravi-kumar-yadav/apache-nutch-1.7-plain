@@ -197,12 +197,12 @@ public class Crawl extends Configured implements Tool {
     LinkDb linkDbTool = new LinkDb(getConf());
     
 
-    System.out.println("********Prioritizer Started");
+    System.out.println("********Prioritizer Created");
     //** Additional Objects created
 	Prioritizer prioritizer = new Prioritizer();
-	System.out.println("********CrawlDBScanner Started");
+	System.out.println("********CrawlDBScanner Created");
 	CrawlDBScanner cbds = new CrawlDBScanner(NutchConfiguration.create());
-	System.out.println("********CrawlDatum Started");
+	System.out.println("********CrawlDatum Created");
 	CrawlDatum cd = new CrawlDatum();
 	    
       
@@ -224,7 +224,7 @@ public class Crawl extends Configured implements Tool {
       fetcher.fetch(segs[0], threads);  // fetch it								//** Fetcher Job
       if (!Fetcher.isParsing(job)) {
     	  System.out.println("********Parser Parsed");
-        parseSegment.parse(segs[0]);    // parse it, if needed					//** Parsing Job
+    	  parseSegment.parse(segs[0]);    // parse it, if needed					//** Parsing Job
       }
       
       System.out.println("********CrawlDbTool Updated");
@@ -271,12 +271,18 @@ public class Crawl extends Configured implements Tool {
       prioritizer.init(getConf(), linkDb);
       
       // Starts the Classifier at a given Port with a Model that is already learnt and stored in a file "/ClassifierModels/model"
-      System.out.println("classifier.startClassifier");
+      //System.out.println("classifier.startClassifier");
       classifier.startClassifier();
+      
+      System.out.println("Total URLs in 'res' : "+res.size());
+      System.out.println("Printing res URLs : ");
+      
+      int ttemp = 1;
       
       for (String text : res) {
     	// Fetches all the parents of given URL form crawlDb and populates the URLDetails object
     	// URLDetails object --> (Parent url tokens, Parent anchor text, Parent Score) for each parent, Url Tokens(one set)
+    	
 		URLDetails urlDetails = prioritizer.getURLDetails(text, crawlDb.toString());
 		if(urlDetails==null) {
 			System.out.println("N0 information on link : "+text);
@@ -285,6 +291,8 @@ public class Crawl extends Configured implements Tool {
 		
 		// Compute Scores for Seven Features
 		urlDetails.setScores();
+		
+		
 		/*float score = */
 		
 		// Valid only for Ist round
@@ -303,6 +311,11 @@ public class Crawl extends Configured implements Tool {
 		}
 		
 		
+		// Displaying State of each URLDetail with Score
+		System.out.println(ttemp + ". " + urlDetails.toString());		
+		ttemp++;
+		
+		//To be Done ???
 		if(urlSet.contains(urlDetails)) {
 			urlSet.remove(urlDetails);
 		}
@@ -311,9 +324,9 @@ public class Crawl extends Configured implements Tool {
 		if(urlDetails.getFinalScore()>=0) {
 			
 		}else {
-			buffer.append("\n");
+			//buffer.append("\n");
 			buffer.append("-1 "+urlDetails.getFeatureVector());
-			outBuffer.append("\n");
+			//outBuffer.append("\n");
 			outBuffer.append("-1 "+urlDetails.getFeatureVector()+"\t"+urlDetails.getUrl()+" - "+urlDetails.getAnchorTextWords()+" "+urlDetails.getFinalScore());
 			
 			//** Updating Negative Feature Pool
@@ -328,12 +341,12 @@ public class Crawl extends Configured implements Tool {
 //		urlSet.add(urlDetails);
 		
 //		crawlDbReader.readUrlDatum(crawlDb.toString(), text, getConf()).setScore(score);;
-		System.out.println("I am lucky ---------- " + urlDetails);
+		//System.out.println("I am lucky ---------- " + urlDetails);
       }
       
       //** Commented as It seems to be a mistake ???
       //classifier.classify("Shutdown");
-      classifier.stopClassifier();
+      //classifier.stopClassifier();
       
       Collections.sort(urlSet);
       
@@ -380,7 +393,14 @@ public class Crawl extends Configured implements Tool {
 		
 		// Why is this used???
 		// Its not present also
-		appendOutputToFile(outBuffer.toString(),getConf().get("outputFolder")+"/"+i);
+		System.out.println("File Name :: "+getConf().get("outputFolder"));
+		System.out.println("Complete File Name :: "+ getConf().get("outputFolder")+"/"+i);
+		
+		System.out.println("buffer content : \n"+buffer.toString());
+		System.out.println("outbuffer content : \n"+outBuffer.toString());
+		
+		createIncTrainingFile(outBuffer.toString(),getConf().get("outputFolder")+"/"+i);
+		System.out.println("Om Namah Shivay!!!");
     }
     return 0;
   }

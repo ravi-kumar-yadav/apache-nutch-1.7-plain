@@ -6,6 +6,8 @@
 # 4. "cd runtime/local"
 
 cd /home/ravi/MTP2/apache-nutch-1.7-plain
+rm -rf crawl_output
+mkdir crawl_output
 ant clean
 ant
-cd runtime/local/.
+time runtime/local/bin/nutch  crawl urls/ -dir crawl_output/ -depth 2 -topN 10  > tempRun.txt

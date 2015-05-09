@@ -105,7 +105,7 @@
 
 <property>
   <name>outputFolder</name>
-  <value>${PROJECT_HOME}/outputFolder</value>
+  <value>${PROJECT_HOME}/crawl_output</value>
   <!--<value>/home/arjun/Workspaces/CrawlExpt/apache-nutch-1.7</value>-->
   <description>Directories where nutch plugins are located.  Each
   element may be a relative or absolute path.  If absolute, it is used
