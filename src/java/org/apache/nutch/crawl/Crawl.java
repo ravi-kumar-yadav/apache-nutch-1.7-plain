@@ -322,7 +322,7 @@ public class Crawl extends Configured implements Tool {
 		urlSet.add(urlDetails);
 		
 		if(urlDetails.getFinalScore()>=0) {
-			
+			 
 		}else {
 			//buffer.append("\n");
 			buffer.append("-1 "+urlDetails.getFeatureVector());
