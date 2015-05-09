@@ -26,6 +26,17 @@ bin/nutch crawl urls -dir crawlDir -solr http://10.208.36.48:8983/solr/mycollect
 8. Lot of `no link information. in Prioritizer` message pops-up even when we run crawler with `-depth 2 -topN 10`. This shows that there is no parent(inlinks) information in **crawldb**.
 
 
+###Tasks###
+Date | Task | Status
+------------ | -------------
+09 May | Understand seed url concept | Pending
+09 May | Check Score gets reflected in crawldb | Pending
+09 May | Working of Classifier | Pending
+09 May | URL Score Computation | Pending
+09 May | Positive and Negative Examples getting reflected | Pending
+09 May | Applying Stop Word Removal | Pending
+09 May | Testing | Pending
+
 
 ###Code Update###
 1. Commented code line present in class `BaseSetLoader.java` and in method `updatePosBaseSetUsingDepth(Configuration configuration)`
