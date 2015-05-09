@@ -28,15 +28,15 @@ bin/nutch crawl urls -dir crawlDir -solr http://10.208.36.48:8983/solr/mycollect
 
 ###Tasks###
 
-Date | Task | Status
------------- | ------------- | -------------
-09 May | Understand seed url concept | Pending
-09 May | Check Score gets reflected in crawldb | Pending
-09 May | Working of Classifier | Pending
-09 May | URL Score Computation | Pending
-09 May | Positive and Negative Examples getting reflected | Pending
-09 May | Applying Stop Word Removal | Pending
-09 May | Testing | Pending
+Date | Task | Target | Status
+------------ | ------------- | ------------- | -------------
+09 May | Understand seed url concept | 09 May | Pending
+09 May | Check Score gets reflected in crawldb | 09 May | Pending
+09 May | Working of Classifier | 09 May | Pending
+09 May | URL Score Computation | 10 May | Pending
+09 May | Positive and Negative Examples getting reflected | 10 May | Pending
+09 May | Applying Stop Word Removal | 11 May | Pending
+09 May | Testing | 11 May | Pending
 
 
 ###Code Update###
