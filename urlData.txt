@@ -1,0 +1,4320 @@
+
+**************************
+Printing all UNFETCHED URLs: 10
+**************************
+11 : http://en.wikipedia.org/wiki/Category:1901_establishments_in_India
+No Score for : http://en.wikipedia.org/wiki/Category:1901_establishments_in_India
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:26 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 1.0
+Signature: null
+Metadata: 
+
+11 : http://en.wikipedia.org/wiki/Category:1889_establishments_in_India
+No Score for : http://en.wikipedia.org/wiki/Category:1889_establishments_in_India
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:26 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 1.0
+Signature: null
+Metadata: 
+
+11 : http://en.wikipedia.org/wiki/Category:1950s_establishments_in_India
+No Score for : http://en.wikipedia.org/wiki/Category:1950s_establishments_in_India
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:26 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 1.0
+Signature: null
+Metadata: 
+
+11 : http://en.wikipedia.org/wiki/Category:1880s_establishments_in_India
+No Score for : http://en.wikipedia.org/wiki/Category:1880s_establishments_in_India
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:26 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 1.0
+Signature: null
+Metadata: 
+
+11 : http://en.wikipedia.org/wiki/Category:1956_establishments_in_India
+No Score for : http://en.wikipedia.org/wiki/Category:1956_establishments_in_India
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:26 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 1.0
+Signature: null
+Metadata: 
+
+11 : http://en.wikipedia.org/wiki/Category:1900s_establishments_in_India
+No Score for : http://en.wikipedia.org/wiki/Category:1900s_establishments_in_India
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:26 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 1.0
+Signature: null
+Metadata: 
+
+11 : http://en.wikipedia.org/wiki/Category:1947_establishments_in_India
+No Score for : http://en.wikipedia.org/wiki/Category:1947_establishments_in_India
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:26 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 1.0
+Signature: null
+Metadata: 
+
+11 : http://en.wikipedia.org/wiki/Category:1941_establishments_in_India
+No Score for : http://en.wikipedia.org/wiki/Category:1941_establishments_in_India
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:26 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 1.0
+Signature: null
+Metadata: 
+
+11 : http://en.wikipedia.org/wiki/Category:1940s_establishments_in_India
+No Score for : http://en.wikipedia.org/wiki/Category:1940s_establishments_in_India
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:26 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 1.0
+Signature: null
+Metadata: 
+
+11 : http://en.wikipedia.org/wiki/Category:1960s_establishments_in_India
+No Score for : http://en.wikipedia.org/wiki/Category:1960s_establishments_in_India
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:26 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 1.0
+Signature: null
+Metadata: 
+
+**************************
+Printing all FETCHED URLs: 0
+**************************
+**************************
+Printing all UNFETCHED URLs: 97
+**************************
+12 : http://en.wikipedia.org/wiki/Wikipedia:FAQ/Categories
+Score : 2.035471
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.018518519
+Signature: null
+Metadata: 
+
+12 : http://en.wikipedia.org/wiki/Category:1883_establishments_in_India
+Score : 2.905067
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.03774929
+Signature: null
+Metadata: 
+
+12 : http://en.wikipedia.org/wiki/Wikipedia:About
+Score : 1.851743
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.114714265
+Signature: null
+Metadata: 
+
+12 : http://en.wikipedia.org/wiki/Category:Establishments_in_India_by_decade
+Score : 2.525158
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.038838614
+Signature: null
+Metadata: 
+
+12 : http://en.wikipedia.org/wiki/1889
+Score : 3.172024
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.018518519
+Signature: null
+Metadata: 
+
+12 : http://en.wikipedia.org/wiki/Category:1941_establishments_in_India
+No Score for : http://en.wikipedia.org/wiki/Category:1941_establishments_in_India
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:26 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 1.0
+Signature: null
+Metadata: 
+
+12 : http://en.wikipedia.org/wiki/Bhanga_Pilot_High_School
+Score : 2.414322
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.018518519
+Signature: null
+Metadata: 
+
+12 : http://en.wikipedia.org/wiki/Category:Establishments_in_India_by_year
+Score : 2.262781
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.018518519
+Signature: null
+Metadata: 
+
+12 : http://en.wikipedia.org/wiki/Islamia_College,_Warangal
+Score : 2.919457
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.018518519
+Signature: null
+Metadata: 
+
+12 : http://en.wikipedia.org/wiki/Special:WhatLinksHere/Category:1880s_establishments_in_India
+Score : 2.016794
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.01923077
+Signature: null
+Metadata: 
+
+12 : http://en.wikipedia.org/wiki/Portal:Featured_content
+Score : 1.851743
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.057357132
+Signature: null
+Metadata: 
+
+12 : http://en.wikipedia.org/wiki/Category:1889_in_India
+Score : 2.666889
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.018518519
+Signature: null
+Metadata: 
+
+12 : http://en.wikipedia.org/wiki/Category:1890s_establishments_in_India
+Score : 3.093435
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.038838614
+Signature: null
+Metadata: 
+
+12 : http://en.wikipedia.org/wiki/Category:19th-century_establishments_in_India
+Score : 2.5093
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.03846154
+Signature: null
+Metadata: 
+
+12 : http://en.wikipedia.org/wiki/Category:Commons_category_with_local_link_same_as_on_Wikidata
+Score : 2.56735
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.057357132
+Signature: null
+Metadata: 
+
+12 : http://en.wikipedia.org/wiki/Category:1902_establishments_in_India
+Score : 2.791057
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.019607844
+Signature: null
+Metadata: 
+
+12 : http://en.wikipedia.org/wiki/Category:1880s_establishments_by_country
+Score : 2.395645
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.01923077
+Signature: null
+Metadata: 
+
+12 : http://en.wikipedia.org/wiki/Category:1840s_establishments_in_India
+Score : 2.963922
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.01923077
+Signature: null
+Metadata: 
+
+12 : http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License
+Score : 3.064066
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.057357132
+Signature: null
+Metadata: 
+
+12 : http://en.wikipedia.org/wiki/Special:RecentChangesLinked/Category:1900s_establishments_in_India
+Score : 2.033355
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.019607844
+Signature: null
+Metadata: 
+
+12 : http://en.wikipedia.org/wiki/1880s
+Score : 3.153348
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.01923077
+Signature: null
+Metadata: 
+
+12 : http://en.wikipedia.org/wiki/Special:RecentChangesLinked/Category:1880s_establishments_in_India
+Score : 2.016794
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.01923077
+Signature: null
+Metadata: 
+
+12 : http://en.wikipedia.org/wiki/Bilaspur_Junction_railway_station
+Score : 3.172024
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.018518519
+Signature: null
+Metadata: 
+
+12 : http://en.wikipedia.org/wiki/Category:1910s_establishments_in_India
+Score : 2.980483
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.019607844
+Signature: null
+Metadata: 
+
+12 : http://en.wikipedia.org/wiki/Category:1870s_establishments_in_India
+Score : 2.963922
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.01923077
+Signature: null
+Metadata: 
+
+12 : http://en.wikipedia.org/wiki/1900%E2%80%931909
+Score : 2.791057
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.019607844
+Signature: null
+Metadata: 
+
+12 : http://en.wikipedia.org/wiki/Delhi_Cloth_Mills
+Score : 3.172024
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.018518519
+Signature: null
+Metadata: 
+
+12 : http://en.wikipedia.org/wiki/Category:1920s_establishments_in_India
+Score : 2.033355
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.019607844
+Signature: null
+Metadata: 
+
+12 : http://en.wikipedia.org/wiki/Category:1900s_in_India
+Score : 2.664773
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.019607844
+Signature: null
+Metadata: 
+
+12 : http://en.wikipedia.org/wiki/Category:1906_establishments_in_India
+Score : 2.791057
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.019607844
+Signature: null
+Metadata: 
+
+12 : http://en.wikipedia.org/wiki/Category:1880s_in_India
+Score : 2.648213
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.01923077
+Signature: null
+Metadata: 
+
+12 : http://en.wikipedia.org/wiki/Category:1940s_establishments_in_India
+No Score for : http://en.wikipedia.org/wiki/Category:1940s_establishments_in_India
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:26 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 1.0196079
+Signature: null
+Metadata: 
+
+12 : http://en.wikipedia.org/wiki/Category:2000s_establishments_in_India
+Score : 2.980483
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.019607844
+Signature: null
+Metadata: 
+
+12 : http://en.wikipedia.org/wiki/Category:1888_establishments_in_India
+Score : 2.905067
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.03774929
+Signature: null
+Metadata: 
+
+12 : http://en.wikipedia.org/wiki/Category:1830s_establishments_in_India
+Score : 2.963922
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.01923077
+Signature: null
+Metadata: 
+
+12 : http://en.wikipedia.org/wiki/Category:1903_establishments_in_India
+Score : 2.791057
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.019607844
+Signature: null
+Metadata: 
+
+12 : http://en.wikipedia.org/wiki/Special:Random
+Score : 1.851743
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.057357132
+Signature: null
+Metadata: 
+
+12 : http://en.wikipedia.org/wiki/Mohun_Bagan_A.C
+Score : 2.793173
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.018518519
+Signature: null
+Metadata: 
+
+12 : http://en.wikipedia.org/wiki/Category:1960s_establishments_in_India
+No Score for : http://en.wikipedia.org/wiki/Category:1960s_establishments_in_India
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:26 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 1.0196079
+Signature: null
+Metadata: 
+
+12 : http://en.wikipedia.org/wiki/Category:1909_establishments_in_India
+Score : 2.791057
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.019607844
+Signature: null
+Metadata: 
+
+12 : http://en.wikipedia.org/wiki/Category:1901_establishments_in_India
+No Score for : http://en.wikipedia.org/wiki/Category:1901_establishments_in_India
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:26 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 1.0196079
+Signature: null
+Metadata: 
+
+12 : http://en.wikipedia.org/wiki/Category:1800s_establishments_in_India
+Score : 2.963922
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.01923077
+Signature: null
+Metadata: 
+
+12 : http://en.wikipedia.org/wiki/Portal:Current_events
+Score : 1.851743
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.057357132
+Signature: null
+Metadata: 
+
+12 : http://en.wikipedia.org/wiki/Category_talk:1889_establishments_in_India
+Score : 2.111241
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.018518519
+Signature: null
+Metadata: 
+
+12 : http://en.wikipedia.org/wiki/Category:1905_establishments_in_India
+Score : 2.791057
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.019607844
+Signature: null
+Metadata: 
+
+12 : http://en.wikipedia.org/wiki/Category:1886_establishments_in_India
+Score : 2.905067
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.03774929
+Signature: null
+Metadata: 
+
+12 : http://en.wikipedia.org/wiki/Wikipedia:General_disclaimer
+Score : 2.988296
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.057357132
+Signature: null
+Metadata: 
+
+12 : http://en.wikipedia.org/wiki/Main_Page
+Score : 1.851743
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.057357132
+Signature: null
+Metadata: 
+
+12 : http://en.wikipedia.org/wiki/Category:1990s_establishments_in_India
+Score : 2.980483
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.019607844
+Signature: null
+Metadata: 
+
+12 : http://en.wikipedia.org/wiki/Bihar_National_College
+Score : 2.161754
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.018518519
+Signature: null
+Metadata: 
+
+12 : http://en.wikipedia.org/wiki/Category:1900s_establishments_by_country
+Score : 2.412206
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.019607844
+Signature: null
+Metadata: 
+
+12 : http://en.wikipedia.org/wiki/Category:1947_establishments_in_India
+No Score for : http://en.wikipedia.org/wiki/Category:1947_establishments_in_India
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:26 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 1.0
+Signature: null
+Metadata: 
+
+12 : http://en.wikipedia.org/wiki/Wikipedia:File_Upload_Wizard
+Score : 2.862012
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.057357132
+Signature: null
+Metadata: 
+
+12 : http://en.wikipedia.org/wiki/Category:1904_establishments_in_India
+Score : 2.791057
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.019607844
+Signature: null
+Metadata: 
+
+12 : http://en.wikipedia.org/wiki/Category:1950s_establishments_in_India
+No Score for : http://en.wikipedia.org/wiki/Category:1950s_establishments_in_India
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:26 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 1.0196079
+Signature: null
+Metadata: 
+
+12 : http://en.wikipedia.org/wiki/Category:1970s_establishments_in_India
+Score : 2.980483
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.019607844
+Signature: null
+Metadata: 
+
+12 : http://en.wikipedia.org/wiki/Category:1890_establishments_in_India
+Score : 2.982599
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.018518519
+Signature: null
+Metadata: 
+
+12 : http://en.wikipedia.org/wiki/Category:1882_establishments_in_India
+Score : 2.905067
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.03774929
+Signature: null
+Metadata: 
+
+12 : http://en.wikipedia.org/wiki/Category:1881_establishments_in_India
+Score : 2.905067
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.03774929
+Signature: null
+Metadata: 
+
+12 : http://en.wikipedia.org/wiki/Category_talk:1880s_establishments_in_India
+Score : 2.092564
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.01923077
+Signature: null
+Metadata: 
+
+12 : http://en.wikipedia.org/wiki/Category:1907_establishments_in_India
+Score : 2.791057
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.019607844
+Signature: null
+Metadata: 
+
+12 : http://en.wikipedia.org/wiki/Portal:Contents
+Score : 2.609445
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.057357132
+Signature: null
+Metadata: 
+
+12 : http://en.wikipedia.org/wiki/Category:1980s_establishments_in_India
+Score : 2.980483
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.019607844
+Signature: null
+Metadata: 
+
+12 : http://en.wikipedia.org/wiki/Category:1887_establishments_in_India
+Score : 2.905067
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.03774929
+Signature: null
+Metadata: 
+
+12 : http://en.wikipedia.org/wiki/Category:1908_establishments_in_India
+Score : 2.791057
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.019607844
+Signature: null
+Metadata: 
+
+12 : http://en.wikipedia.org/wiki/Category:1850s_establishments_in_India
+Score : 2.963922
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.01923077
+Signature: null
+Metadata: 
+
+12 : http://en.wikipedia.org/wiki/Category:1956_establishments_in_India
+No Score for : http://en.wikipedia.org/wiki/Category:1956_establishments_in_India
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:26 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 1.0
+Signature: null
+Metadata: 
+
+12 : http://en.wikipedia.org/wiki/Anyonya_Co-operative_Bank_Limited
+Score : 3.172024
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.018518519
+Signature: null
+Metadata: 
+
+12 : http://en.wikipedia.org/wiki/Category:1879_establishments_in_India
+Score : 2.982599
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.018518519
+Signature: null
+Metadata: 
+
+12 : http://en.wikipedia.org/wiki/Brojomohun_College
+Score : 2.414322
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.018518519
+Signature: null
+Metadata: 
+
+12 : http://en.wikipedia.org/wiki/Help:Category
+Score : 1.851743
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.057357132
+Signature: null
+Metadata: 
+
+12 : http://en.wikipedia.org/wiki/Category:1885_establishments_in_India
+Score : 2.526216
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.03774929
+Signature: null
+Metadata: 
+
+12 : http://en.wikipedia.org/wiki/Category_talk:1900s_establishments_in_India
+Score : 2.109125
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.019607844
+Signature: null
+Metadata: 
+
+12 : http://en.wikipedia.org/wiki/Category:1900_establishments_in_India
+Score : 2.791057
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.019607844
+Signature: null
+Metadata: 
+
+12 : http://en.wikipedia.org/wiki/Category:1889_establishments_in_the_British_Empire
+Score : 2.540606
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.018518519
+Signature: null
+Metadata: 
+
+12 : http://en.wikipedia.org/wiki/India
+Score : 3.367147
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.057357132
+Signature: null
+Metadata: 
+
+12 : http://en.wikipedia.org/wiki/Special:RecentChangesLinked/Category:1889_establishments_in_India
+Score : 2.035471
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.018518519
+Signature: null
+Metadata: 
+
+12 : http://en.wikipedia.org/wiki/Category:20th-century_establishments_in_India
+Score : 2.677402
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.039215688
+Signature: null
+Metadata: 
+
+12 : http://en.wikipedia.org/wiki/Category:1880_establishments_in_India
+Score : 2.905067
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.03774929
+Signature: null
+Metadata: 
+
+12 : http://en.wikipedia.org/wiki/Category:1820s_establishments_in_India
+Score : 2.963922
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.01923077
+Signature: null
+Metadata: 
+
+12 : http://en.wikipedia.org/wiki/Category:1810s_establishments_in_India
+Score : 2.963922
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.01923077
+Signature: null
+Metadata: 
+
+12 : http://en.wikipedia.org/wiki/Help:Contents
+Score : 2.609445
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.057357132
+Signature: null
+Metadata: 
+
+12 : http://en.wikipedia.org/wiki/Special:RecentChanges
+Score : 2.230594
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.057357132
+Signature: null
+Metadata: 
+
+12 : http://en.wikipedia.org/wiki/Category:1884_establishments_in_India
+Score : 2.905067
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.03774929
+Signature: null
+Metadata: 
+
+12 : http://en.wikipedia.org/wiki/Special:SpecialPages
+Score : 2.230594
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.057357132
+Signature: null
+Metadata: 
+
+12 : http://en.wikipedia.org/wiki/Special:WhatLinksHere/Category:1889_establishments_in_India
+Score : 2.035471
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.018518519
+Signature: null
+Metadata: 
+
+12 : http://en.wikipedia.org/wiki/Bikaner_Camel_Corps
+Score : 3.172024
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.018518519
+Signature: null
+Metadata: 
+
+12 : http://en.wikipedia.org/wiki/Category:1790s_establishments_in_India
+Score : 2.963922
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.01923077
+Signature: null
+Metadata: 
+
+12 : http://en.wikipedia.org/wiki/Category:1880s_establishments_in_Asia
+Score : 2.774496
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.01923077
+Signature: null
+Metadata: 
+
+12 : http://en.wikipedia.org/wiki/Special:WhatLinksHere/Category:1900s_establishments_in_India
+Score : 2.033355
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.019607844
+Signature: null
+Metadata: 
+
+12 : http://en.wikipedia.org/wiki/Ahmadiyya
+Score : 3.172024
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.018518519
+Signature: null
+Metadata: 
+
+12 : http://en.wikipedia.org/wiki/Category:1860s_establishments_in_India
+Score : 2.963922
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.01923077
+Signature: null
+Metadata: 
+
+12 : http://en.wikipedia.org/wiki/Wikipedia:Community_portal
+Score : 1.851743
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.057357132
+Signature: null
+Metadata: 
+
+12 : http://en.wikipedia.org/wiki/Category:1930s_establishments_in_India
+Score : 2.980483
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.019607844
+Signature: null
+Metadata: 
+
+12 : http://en.wikipedia.org/wiki/Category:1889_establishments_by_country
+Score : 2.414322
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.018518519
+Signature: null
+Metadata: 
+
+12 : http://en.wikipedia.org/wiki/Wikipedia:Contact_us
+Score : 2.230594
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.114714265
+Signature: null
+Metadata: 
+
+12 : http://en.wikipedia.org/wiki/Bharati_Bhavan_Library
+Score : 2.666889
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.018518519
+Signature: null
+Metadata: 
+
+**************************
+Printing all FETCHED URLs: 3
+**************************
+12 : http://en.wikipedia.org/wiki/Category:1889_establishments_in_India
+No Score for : http://en.wikipedia.org/wiki/Category:1889_establishments_in_India
+Version: 7
+Status: 2 (db_fetched)
+Fetch time: Tue May 12 06:32:46 IST 2015
+Modified time: Mon May 11 06:32:46 IST 2015
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 1.0562679
+Signature: f39eec4e66c7e918c6288c8f2ffe2c1d
+Metadata: Content-Type: text/html_pst_: success(1), lastModified=0
+
+12 : http://en.wikipedia.org/wiki/Category:1880s_establishments_in_India
+No Score for : http://en.wikipedia.org/wiki/Category:1880s_establishments_in_India
+Version: 7
+Status: 2 (db_fetched)
+Fetch time: Tue May 12 06:32:35 IST 2015
+Modified time: Mon May 11 06:32:35 IST 2015
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 1.0754986
+Signature: 6ef1dbd2bf48d905ff92ea20d2326c6a
+Metadata: Content-Type: text/html_pst_: success(1), lastModified=0
+
+12 : http://en.wikipedia.org/wiki/Category:1900s_establishments_in_India
+No Score for : http://en.wikipedia.org/wiki/Category:1900s_establishments_in_India
+Version: 7
+Status: 2 (db_fetched)
+Fetch time: Tue May 12 06:32:40 IST 2015
+Modified time: Mon May 11 06:32:40 IST 2015
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 1.0584464
+Signature: d7a9f6b56e814deeaf596d1430ff11d6
+Metadata: Content-Type: text/html_pst_: success(1), lastModified=0
+
+**************************
+Printing all UNFETCHED URLs: 97
+**************************
+21 : http://en.wikipedia.org/wiki/Wikipedia:FAQ/Categories
+Score : 2.035471
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.018518519
+Signature: null
+Metadata: 
+
+21 : http://en.wikipedia.org/wiki/Category:1883_establishments_in_India
+Score : 2.905067
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.03774929
+Signature: null
+Metadata: 
+
+21 : http://en.wikipedia.org/wiki/Wikipedia:About
+Score : 1.851743
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.114714265
+Signature: null
+Metadata: 
+
+21 : http://en.wikipedia.org/wiki/Category:Establishments_in_India_by_decade
+Score : 2.525158
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.038838614
+Signature: null
+Metadata: 
+
+21 : http://en.wikipedia.org/wiki/1889
+Score : 3.172024
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.018518519
+Signature: null
+Metadata: 
+
+21 : http://en.wikipedia.org/wiki/Category:1941_establishments_in_India
+No Score for : http://en.wikipedia.org/wiki/Category:1941_establishments_in_India
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:26 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 1.0
+Signature: null
+Metadata: 
+
+21 : http://en.wikipedia.org/wiki/Bhanga_Pilot_High_School
+Score : 2.414322
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.018518519
+Signature: null
+Metadata: 
+
+21 : http://en.wikipedia.org/wiki/Category:Establishments_in_India_by_year
+Score : 2.262781
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.018518519
+Signature: null
+Metadata: 
+
+21 : http://en.wikipedia.org/wiki/Islamia_College,_Warangal
+Score : 2.919457
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.018518519
+Signature: null
+Metadata: 
+
+21 : http://en.wikipedia.org/wiki/Special:WhatLinksHere/Category:1880s_establishments_in_India
+Score : 2.016794
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.01923077
+Signature: null
+Metadata: 
+
+21 : http://en.wikipedia.org/wiki/Portal:Featured_content
+Score : 1.851743
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.057357132
+Signature: null
+Metadata: 
+
+21 : http://en.wikipedia.org/wiki/Category:1889_in_India
+Score : 2.666889
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.018518519
+Signature: null
+Metadata: 
+
+21 : http://en.wikipedia.org/wiki/Category:1890s_establishments_in_India
+Score : 3.093435
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.038838614
+Signature: null
+Metadata: 
+
+21 : http://en.wikipedia.org/wiki/Category:19th-century_establishments_in_India
+Score : 2.5093
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.03846154
+Signature: null
+Metadata: 
+
+21 : http://en.wikipedia.org/wiki/Category:Commons_category_with_local_link_same_as_on_Wikidata
+Score : 2.56735
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.057357132
+Signature: null
+Metadata: 
+
+21 : http://en.wikipedia.org/wiki/Category:1902_establishments_in_India
+Score : 2.791057
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.019607844
+Signature: null
+Metadata: 
+
+21 : http://en.wikipedia.org/wiki/Category:1880s_establishments_by_country
+Score : 2.395645
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.01923077
+Signature: null
+Metadata: 
+
+21 : http://en.wikipedia.org/wiki/Category:1840s_establishments_in_India
+Score : 2.963922
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.01923077
+Signature: null
+Metadata: 
+
+21 : http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License
+Score : 3.064066
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.057357132
+Signature: null
+Metadata: 
+
+21 : http://en.wikipedia.org/wiki/Special:RecentChangesLinked/Category:1900s_establishments_in_India
+Score : 2.033355
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.019607844
+Signature: null
+Metadata: 
+
+21 : http://en.wikipedia.org/wiki/1880s
+Score : 3.153348
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.01923077
+Signature: null
+Metadata: 
+
+21 : http://en.wikipedia.org/wiki/Special:RecentChangesLinked/Category:1880s_establishments_in_India
+Score : 2.016794
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.01923077
+Signature: null
+Metadata: 
+
+21 : http://en.wikipedia.org/wiki/Bilaspur_Junction_railway_station
+Score : 3.172024
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.018518519
+Signature: null
+Metadata: 
+
+21 : http://en.wikipedia.org/wiki/Category:1910s_establishments_in_India
+Score : 2.980483
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.019607844
+Signature: null
+Metadata: 
+
+21 : http://en.wikipedia.org/wiki/Category:1870s_establishments_in_India
+Score : 2.963922
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.01923077
+Signature: null
+Metadata: 
+
+21 : http://en.wikipedia.org/wiki/1900%E2%80%931909
+Score : 2.791057
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.019607844
+Signature: null
+Metadata: 
+
+21 : http://en.wikipedia.org/wiki/Delhi_Cloth_Mills
+Score : 3.172024
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.018518519
+Signature: null
+Metadata: 
+
+21 : http://en.wikipedia.org/wiki/Category:1920s_establishments_in_India
+Score : 2.033355
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.019607844
+Signature: null
+Metadata: 
+
+21 : http://en.wikipedia.org/wiki/Category:1900s_in_India
+Score : 2.664773
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.019607844
+Signature: null
+Metadata: 
+
+21 : http://en.wikipedia.org/wiki/Category:1906_establishments_in_India
+Score : 2.791057
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.019607844
+Signature: null
+Metadata: 
+
+21 : http://en.wikipedia.org/wiki/Category:1880s_in_India
+Score : 2.648213
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.01923077
+Signature: null
+Metadata: 
+
+21 : http://en.wikipedia.org/wiki/Category:1940s_establishments_in_India
+No Score for : http://en.wikipedia.org/wiki/Category:1940s_establishments_in_India
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:26 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 1.0196079
+Signature: null
+Metadata: 
+
+21 : http://en.wikipedia.org/wiki/Category:2000s_establishments_in_India
+Score : 2.980483
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.019607844
+Signature: null
+Metadata: 
+
+21 : http://en.wikipedia.org/wiki/Category:1888_establishments_in_India
+Score : 2.905067
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.03774929
+Signature: null
+Metadata: 
+
+21 : http://en.wikipedia.org/wiki/Category:1830s_establishments_in_India
+Score : 2.963922
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.01923077
+Signature: null
+Metadata: 
+
+21 : http://en.wikipedia.org/wiki/Category:1903_establishments_in_India
+Score : 2.791057
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.019607844
+Signature: null
+Metadata: 
+
+21 : http://en.wikipedia.org/wiki/Special:Random
+Score : 1.851743
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.057357132
+Signature: null
+Metadata: 
+
+21 : http://en.wikipedia.org/wiki/Mohun_Bagan_A.C
+Score : 2.793173
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.018518519
+Signature: null
+Metadata: 
+
+21 : http://en.wikipedia.org/wiki/Category:1960s_establishments_in_India
+No Score for : http://en.wikipedia.org/wiki/Category:1960s_establishments_in_India
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:26 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 1.0196079
+Signature: null
+Metadata: 
+
+21 : http://en.wikipedia.org/wiki/Category:1909_establishments_in_India
+Score : 2.791057
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.019607844
+Signature: null
+Metadata: 
+
+21 : http://en.wikipedia.org/wiki/Category:1901_establishments_in_India
+No Score for : http://en.wikipedia.org/wiki/Category:1901_establishments_in_India
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:26 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 1.0196079
+Signature: null
+Metadata: 
+
+21 : http://en.wikipedia.org/wiki/Category:1800s_establishments_in_India
+Score : 2.963922
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.01923077
+Signature: null
+Metadata: 
+
+21 : http://en.wikipedia.org/wiki/Portal:Current_events
+Score : 1.851743
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.057357132
+Signature: null
+Metadata: 
+
+21 : http://en.wikipedia.org/wiki/Category_talk:1889_establishments_in_India
+Score : 2.111241
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.018518519
+Signature: null
+Metadata: 
+
+21 : http://en.wikipedia.org/wiki/Category:1905_establishments_in_India
+Score : 2.791057
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.019607844
+Signature: null
+Metadata: 
+
+21 : http://en.wikipedia.org/wiki/Category:1886_establishments_in_India
+Score : 2.905067
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.03774929
+Signature: null
+Metadata: 
+
+21 : http://en.wikipedia.org/wiki/Wikipedia:General_disclaimer
+Score : 2.988296
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.057357132
+Signature: null
+Metadata: 
+
+21 : http://en.wikipedia.org/wiki/Main_Page
+Score : 1.851743
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.057357132
+Signature: null
+Metadata: 
+
+21 : http://en.wikipedia.org/wiki/Category:1990s_establishments_in_India
+Score : 2.980483
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.019607844
+Signature: null
+Metadata: 
+
+21 : http://en.wikipedia.org/wiki/Bihar_National_College
+Score : 2.161754
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.018518519
+Signature: null
+Metadata: 
+
+21 : http://en.wikipedia.org/wiki/Category:1900s_establishments_by_country
+Score : 2.412206
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.019607844
+Signature: null
+Metadata: 
+
+21 : http://en.wikipedia.org/wiki/Category:1947_establishments_in_India
+No Score for : http://en.wikipedia.org/wiki/Category:1947_establishments_in_India
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:26 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 1.0
+Signature: null
+Metadata: 
+
+21 : http://en.wikipedia.org/wiki/Wikipedia:File_Upload_Wizard
+Score : 2.862012
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.057357132
+Signature: null
+Metadata: 
+
+21 : http://en.wikipedia.org/wiki/Category:1904_establishments_in_India
+Score : 2.791057
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.019607844
+Signature: null
+Metadata: 
+
+21 : http://en.wikipedia.org/wiki/Category:1950s_establishments_in_India
+No Score for : http://en.wikipedia.org/wiki/Category:1950s_establishments_in_India
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:26 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 1.0196079
+Signature: null
+Metadata: 
+
+21 : http://en.wikipedia.org/wiki/Category:1970s_establishments_in_India
+Score : 2.980483
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.019607844
+Signature: null
+Metadata: 
+
+21 : http://en.wikipedia.org/wiki/Category:1890_establishments_in_India
+Score : 2.982599
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.018518519
+Signature: null
+Metadata: 
+
+21 : http://en.wikipedia.org/wiki/Category:1882_establishments_in_India
+Score : 2.905067
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.03774929
+Signature: null
+Metadata: 
+
+21 : http://en.wikipedia.org/wiki/Category:1881_establishments_in_India
+Score : 2.905067
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.03774929
+Signature: null
+Metadata: 
+
+21 : http://en.wikipedia.org/wiki/Category_talk:1880s_establishments_in_India
+Score : 2.092564
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.01923077
+Signature: null
+Metadata: 
+
+21 : http://en.wikipedia.org/wiki/Category:1907_establishments_in_India
+Score : 2.791057
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.019607844
+Signature: null
+Metadata: 
+
+21 : http://en.wikipedia.org/wiki/Portal:Contents
+Score : 2.609445
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.057357132
+Signature: null
+Metadata: 
+
+21 : http://en.wikipedia.org/wiki/Category:1980s_establishments_in_India
+Score : 2.980483
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.019607844
+Signature: null
+Metadata: 
+
+21 : http://en.wikipedia.org/wiki/Category:1887_establishments_in_India
+Score : 2.905067
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.03774929
+Signature: null
+Metadata: 
+
+21 : http://en.wikipedia.org/wiki/Category:1908_establishments_in_India
+Score : 2.791057
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.019607844
+Signature: null
+Metadata: 
+
+21 : http://en.wikipedia.org/wiki/Category:1850s_establishments_in_India
+Score : 2.963922
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.01923077
+Signature: null
+Metadata: 
+
+21 : http://en.wikipedia.org/wiki/Category:1956_establishments_in_India
+No Score for : http://en.wikipedia.org/wiki/Category:1956_establishments_in_India
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:26 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 1.0
+Signature: null
+Metadata: 
+
+21 : http://en.wikipedia.org/wiki/Anyonya_Co-operative_Bank_Limited
+Score : 3.172024
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.018518519
+Signature: null
+Metadata: 
+
+21 : http://en.wikipedia.org/wiki/Category:1879_establishments_in_India
+Score : 2.982599
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.018518519
+Signature: null
+Metadata: 
+
+21 : http://en.wikipedia.org/wiki/Brojomohun_College
+Score : 2.414322
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.018518519
+Signature: null
+Metadata: 
+
+21 : http://en.wikipedia.org/wiki/Help:Category
+Score : 1.851743
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.057357132
+Signature: null
+Metadata: 
+
+21 : http://en.wikipedia.org/wiki/Category:1885_establishments_in_India
+Score : 2.526216
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.03774929
+Signature: null
+Metadata: 
+
+21 : http://en.wikipedia.org/wiki/Category_talk:1900s_establishments_in_India
+Score : 2.109125
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.019607844
+Signature: null
+Metadata: 
+
+21 : http://en.wikipedia.org/wiki/Category:1900_establishments_in_India
+Score : 2.791057
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.019607844
+Signature: null
+Metadata: 
+
+21 : http://en.wikipedia.org/wiki/Category:1889_establishments_in_the_British_Empire
+Score : 2.540606
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.018518519
+Signature: null
+Metadata: 
+
+21 : http://en.wikipedia.org/wiki/India
+Score : 3.367147
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.057357132
+Signature: null
+Metadata: 
+
+21 : http://en.wikipedia.org/wiki/Special:RecentChangesLinked/Category:1889_establishments_in_India
+Score : 2.035471
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.018518519
+Signature: null
+Metadata: 
+
+21 : http://en.wikipedia.org/wiki/Category:20th-century_establishments_in_India
+Score : 2.677402
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.039215688
+Signature: null
+Metadata: 
+
+21 : http://en.wikipedia.org/wiki/Category:1880_establishments_in_India
+Score : 2.905067
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.03774929
+Signature: null
+Metadata: 
+
+21 : http://en.wikipedia.org/wiki/Category:1820s_establishments_in_India
+Score : 2.963922
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.01923077
+Signature: null
+Metadata: 
+
+21 : http://en.wikipedia.org/wiki/Category:1810s_establishments_in_India
+Score : 2.963922
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.01923077
+Signature: null
+Metadata: 
+
+21 : http://en.wikipedia.org/wiki/Help:Contents
+Score : 2.609445
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.057357132
+Signature: null
+Metadata: 
+
+21 : http://en.wikipedia.org/wiki/Special:RecentChanges
+Score : 2.230594
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.057357132
+Signature: null
+Metadata: 
+
+21 : http://en.wikipedia.org/wiki/Category:1884_establishments_in_India
+Score : 2.905067
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.03774929
+Signature: null
+Metadata: 
+
+21 : http://en.wikipedia.org/wiki/Special:SpecialPages
+Score : 2.230594
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.057357132
+Signature: null
+Metadata: 
+
+21 : http://en.wikipedia.org/wiki/Special:WhatLinksHere/Category:1889_establishments_in_India
+Score : 2.035471
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.018518519
+Signature: null
+Metadata: 
+
+21 : http://en.wikipedia.org/wiki/Bikaner_Camel_Corps
+Score : 3.172024
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.018518519
+Signature: null
+Metadata: 
+
+21 : http://en.wikipedia.org/wiki/Category:1790s_establishments_in_India
+Score : 2.963922
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.01923077
+Signature: null
+Metadata: 
+
+21 : http://en.wikipedia.org/wiki/Category:1880s_establishments_in_Asia
+Score : 2.774496
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.01923077
+Signature: null
+Metadata: 
+
+21 : http://en.wikipedia.org/wiki/Special:WhatLinksHere/Category:1900s_establishments_in_India
+Score : 2.033355
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.019607844
+Signature: null
+Metadata: 
+
+21 : http://en.wikipedia.org/wiki/Ahmadiyya
+Score : 3.172024
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.018518519
+Signature: null
+Metadata: 
+
+21 : http://en.wikipedia.org/wiki/Category:1860s_establishments_in_India
+Score : 2.963922
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.01923077
+Signature: null
+Metadata: 
+
+21 : http://en.wikipedia.org/wiki/Wikipedia:Community_portal
+Score : 1.851743
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.057357132
+Signature: null
+Metadata: 
+
+21 : http://en.wikipedia.org/wiki/Category:1930s_establishments_in_India
+Score : 2.980483
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.019607844
+Signature: null
+Metadata: 
+
+21 : http://en.wikipedia.org/wiki/Category:1889_establishments_by_country
+Score : 2.414322
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.018518519
+Signature: null
+Metadata: 
+
+21 : http://en.wikipedia.org/wiki/Wikipedia:Contact_us
+Score : 2.230594
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.114714265
+Signature: null
+Metadata: 
+
+21 : http://en.wikipedia.org/wiki/Bharati_Bhavan_Library
+Score : 2.666889
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.018518519
+Signature: null
+Metadata: 
+
+**************************
+Printing all FETCHED URLs: 3
+**************************
+21 : http://en.wikipedia.org/wiki/Category:1889_establishments_in_India
+No Score for : http://en.wikipedia.org/wiki/Category:1889_establishments_in_India
+Version: 7
+Status: 2 (db_fetched)
+Fetch time: Tue May 12 06:32:46 IST 2015
+Modified time: Mon May 11 06:32:46 IST 2015
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 1.0562679
+Signature: f39eec4e66c7e918c6288c8f2ffe2c1d
+Metadata: Content-Type: text/html_pst_: success(1), lastModified=0
+
+21 : http://en.wikipedia.org/wiki/Category:1880s_establishments_in_India
+No Score for : http://en.wikipedia.org/wiki/Category:1880s_establishments_in_India
+Version: 7
+Status: 2 (db_fetched)
+Fetch time: Tue May 12 06:32:35 IST 2015
+Modified time: Mon May 11 06:32:35 IST 2015
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 1.0754986
+Signature: 6ef1dbd2bf48d905ff92ea20d2326c6a
+Metadata: Content-Type: text/html_pst_: success(1), lastModified=0
+
+21 : http://en.wikipedia.org/wiki/Category:1900s_establishments_in_India
+No Score for : http://en.wikipedia.org/wiki/Category:1900s_establishments_in_India
+Version: 7
+Status: 2 (db_fetched)
+Fetch time: Tue May 12 06:32:40 IST 2015
+Modified time: Mon May 11 06:32:40 IST 2015
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 1.0584464
+Signature: d7a9f6b56e814deeaf596d1430ff11d6
+Metadata: Content-Type: text/html_pst_: success(1), lastModified=0
+
+**************************
+Printing all UNFETCHED URLs: 142
+**************************
+22 : http://en.wikipedia.org/wiki/Wikipedia:FAQ/Categories
+Score : 2.22881
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.058641978
+Signature: null
+Metadata: 
+
+22 : http://en.wikipedia.org/wiki/Category:1883_establishments_in_India
+Score : 2.905067
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.03774929
+Signature: null
+Metadata: 
+
+22 : http://en.wikipedia.org/wiki/Category:1960s_establishments_by_country
+Score : 2.392755
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:33:14 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.019992312
+Signature: null
+Metadata: 
+
+22 : http://en.wikipedia.org/wiki/Category:1954_establishments_in_India
+Score : 2.393834
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:33:14 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.018881628
+Signature: null
+Metadata: 
+
+22 : http://en.wikipedia.org/wiki/Wikipedia:About
+Score : 1.96879
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.2349458
+Signature: null
+Metadata: 
+
+22 : http://en.wikipedia.org/wiki/Category:Establishments_in_India_by_decade
+Score : 2.63864
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.07771255
+Signature: null
+Metadata: 
+
+22 : http://en.wikipedia.org/wiki/1889
+Score : 3.172024
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.018518519
+Signature: null
+Metadata: 
+
+22 : http://en.wikipedia.org/wiki/Category:1941_establishments_in_India
+No Score for : http://en.wikipedia.org/wiki/Category:1941_establishments_in_India
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:26 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 1.0
+Signature: null
+Metadata: 
+
+22 : http://en.wikipedia.org/wiki/Category:1953_establishments_in_India
+Score : 2.772685
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:33:14 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.018881628
+Signature: null
+Metadata: 
+
+22 : http://en.wikipedia.org/wiki/Bhanga_Pilot_High_School
+Score : 2.414322
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.018518519
+Signature: null
+Metadata: 
+
+22 : http://en.wikipedia.org/wiki/Category:Establishments_in_India_by_year
+Score : 2.381186
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.03976035
+Signature: null
+Metadata: 
+
+22 : http://en.wikipedia.org/wiki/Islamia_College,_Warangal
+Score : 2.919457
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.018518519
+Signature: null
+Metadata: 
+
+22 : http://en.wikipedia.org/wiki/Special:WhatLinksHere/Category:1880s_establishments_in_India
+Score : 2.016794
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.01923077
+Signature: null
+Metadata: 
+
+22 : http://en.wikipedia.org/wiki/Portal:Featured_content
+Score : 1.96879
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.1174729
+Signature: null
+Metadata: 
+
+22 : http://en.wikipedia.org/wiki/Category:1889_in_India
+Score : 2.666889
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.018518519
+Signature: null
+Metadata: 
+
+22 : http://en.wikipedia.org/wiki/Category:1890s_establishments_in_India
+Score : 3.206917
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.07771255
+Signature: null
+Metadata: 
+
+22 : http://en.wikipedia.org/wiki/Category:19th-century_establishments_in_India
+Score : 2.5093
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.03846154
+Signature: null
+Metadata: 
+
+22 : http://en.wikipedia.org/wiki/Category:Commons_category_with_local_link_same_as_on_Wikidata
+Score : 2.646936
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.09623107
+Signature: null
+Metadata: 
+
+22 : http://en.wikipedia.org/wiki/Category:1950s_establishments_by_country
+Score : 2.393834
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:33:14 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.018881628
+Signature: null
+Metadata: 
+
+22 : http://en.wikipedia.org/wiki/Category_talk:1901_establishments_in_India
+Score : 2.105585
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:33:14 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.02124183
+Signature: null
+Metadata: 
+
+22 : http://en.wikipedia.org/wiki/Category:1952_establishments_in_India
+Score : 2.772685
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:33:14 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.018881628
+Signature: null
+Metadata: 
+
+22 : http://en.wikipedia.org/wiki/Category:1902_establishments_in_India
+Score : 2.871013
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.040849674
+Signature: null
+Metadata: 
+
+22 : http://en.wikipedia.org/wiki/Category:1901_in_India
+Score : 2.661233
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:33:14 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.02124183
+Signature: null
+Metadata: 
+
+22 : http://en.wikipedia.org/wiki/Category:1880s_establishments_by_country
+Score : 2.395645
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.01923077
+Signature: null
+Metadata: 
+
+22 : http://en.wikipedia.org/wiki/Category:1840s_establishments_in_India
+Score : 2.963922
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.01923077
+Signature: null
+Metadata: 
+
+22 : http://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License
+Score : 3.181114
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.1174729
+Signature: null
+Metadata: 
+
+22 : http://en.wikipedia.org/wiki/Special:RecentChangesLinked/Category:1900s_establishments_in_India
+Score : 1.954341
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.019607844
+Signature: null
+Metadata: 
+
+22 : http://en.wikipedia.org/wiki/Category:1968_establishments_in_India
+Score : 2.771606
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:33:14 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.019992312
+Signature: null
+Metadata: 
+
+22 : http://en.wikipedia.org/wiki/1880s
+Score : 3.153348
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.01923077
+Signature: null
+Metadata: 
+
+22 : http://en.wikipedia.org/wiki/Special:RecentChangesLinked/Category:1880s_establishments_in_India
+Score : 2.016794
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.01923077
+Signature: null
+Metadata: 
+
+22 : http://en.wikipedia.org/wiki/Bilaspur_Junction_railway_station
+Score : 3.172024
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.018518519
+Signature: null
+Metadata: 
+
+22 : http://en.wikipedia.org/wiki/North-West_Frontier_Province_(1901%E2%80%9355)
+Score : 2.598091
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:33:14 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.02124183
+Signature: null
+Metadata: 
+
+22 : http://en.wikipedia.org/wiki/Category:1967_establishments_in_India
+Score : 2.771606
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:33:14 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.019992312
+Signature: null
+Metadata: 
+
+22 : http://en.wikipedia.org/wiki/Category:1910s_establishments_in_India
+Score : 3.143591
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.058481783
+Signature: null
+Metadata: 
+
+22 : http://en.wikipedia.org/wiki/Category:1870s_establishments_in_India
+Score : 2.963922
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.01923077
+Signature: null
+Metadata: 
+
+22 : http://en.wikipedia.org/wiki/1900%E2%80%931909
+Score : 2.712043
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.019607844
+Signature: null
+Metadata: 
+
+22 : http://en.wikipedia.org/wiki/Category_talk:1960s_establishments_in_India
+Score : 2.089674
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:33:14 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.019992312
+Signature: null
+Metadata: 
+
+22 : http://en.wikipedia.org/wiki/Delhi_Cloth_Mills
+Score : 3.172024
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.018518519
+Signature: null
+Metadata: 
+
+22 : http://en.wikipedia.org/wiki/Category:1920s_establishments_in_India
+Score : 2.196463
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.058481783
+Signature: null
+Metadata: 
+
+22 : http://en.wikipedia.org/wiki/Category:1961_establishments_in_India
+Score : 2.771606
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:33:14 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.019992312
+Signature: null
+Metadata: 
+
+22 : http://en.wikipedia.org/wiki/Category:1900s_in_India
+Score : 2.585759
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.019607844
+Signature: null
+Metadata: 
+
+22 : http://en.wikipedia.org/wiki/Category:1906_establishments_in_India
+Score : 2.871013
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.040849674
+Signature: null
+Metadata: 
+
+22 : http://en.wikipedia.org/wiki/Category:1880s_in_India
+Score : 2.648213
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.01923077
+Signature: null
+Metadata: 
+
+22 : http://en.wikipedia.org/wiki/Category:1969_establishments_in_India
+Score : 2.771606
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:33:14 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.019992312
+Signature: null
+Metadata: 
+
+22 : http://en.wikipedia.org/wiki/Category:1940s_establishments_in_India
+No Score for : http://en.wikipedia.org/wiki/Category:1940s_establishments_in_India
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:26 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 1.0584818
+Signature: null
+Metadata: 
+
+22 : http://en.wikipedia.org/wiki/Category:2000s_establishments_in_India
+Score : 3.143591
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.058481783
+Signature: null
+Metadata: 
+
+22 : http://en.wikipedia.org/wiki/Category:1888_establishments_in_India
+Score : 2.905067
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.03774929
+Signature: null
+Metadata: 
+
+22 : http://en.wikipedia.org/wiki/Category:1830s_establishments_in_India
+Score : 2.963922
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.01923077
+Signature: null
+Metadata: 
+
+22 : http://en.wikipedia.org/wiki/Watson_High_School,_Madhubani
+Score : 2.598091
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:33:14 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.02124183
+Signature: null
+Metadata: 
+
+22 : http://en.wikipedia.org/wiki/Category:1965_establishments_in_India
+Score : 2.771606
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:33:14 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.019992312
+Signature: null
+Metadata: 
+
+22 : http://en.wikipedia.org/wiki/Category:1903_establishments_in_India
+Score : 2.871013
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.040849674
+Signature: null
+Metadata: 
+
+22 : http://en.wikipedia.org/wiki/Category:1958_establishments_in_India
+Score : 2.393834
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:33:14 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.018881628
+Signature: null
+Metadata: 
+
+22 : http://en.wikipedia.org/wiki/Special:Random
+Score : 1.96879
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.1174729
+Signature: null
+Metadata: 
+
+22 : http://en.wikipedia.org/wiki/Chanakyapuri
+Score : 3.151536
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:33:14 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.018881628
+Signature: null
+Metadata: 
+
+22 : http://en.wikipedia.org/wiki/Mohun_Bagan_A.C
+Score : 2.793173
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.018518519
+Signature: null
+Metadata: 
+
+22 : http://en.wikipedia.org/wiki/Category:1964_establishments_in_India
+Score : 2.771606
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:33:14 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.019992312
+Signature: null
+Metadata: 
+
+22 : http://en.wikipedia.org/wiki/Category:1909_establishments_in_India
+Score : 2.871013
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.040849674
+Signature: null
+Metadata: 
+
+22 : http://en.wikipedia.org/wiki/Category:1800s_establishments_in_India
+Score : 2.963922
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.01923077
+Signature: null
+Metadata: 
+
+22 : http://en.wikipedia.org/wiki/Portal:Current_events
+Score : 1.96879
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.1174729
+Signature: null
+Metadata: 
+
+22 : http://en.wikipedia.org/wiki/Category_talk:1889_establishments_in_India
+Score : 2.111241
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.018518519
+Signature: null
+Metadata: 
+
+22 : http://en.wikipedia.org/wiki/Category:1962_establishments_in_India
+Score : 2.771606
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:33:14 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.019992312
+Signature: null
+Metadata: 
+
+22 : http://en.wikipedia.org/wiki/Category:1959_establishments_in_India
+Score : 2.772685
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:33:14 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.018881628
+Signature: null
+Metadata: 
+
+22 : http://en.wikipedia.org/wiki/Category:1905_establishments_in_India
+Score : 2.871013
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.040849674
+Signature: null
+Metadata: 
+
+22 : http://en.wikipedia.org/wiki/Category:1886_establishments_in_India
+Score : 2.905067
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.03774929
+Signature: null
+Metadata: 
+
+22 : http://en.wikipedia.org/wiki/Ramakrishna_Mission_Sevashrama,_Kankhal
+Score : 3.166368
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:33:14 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.02124183
+Signature: null
+Metadata: 
+
+22 : http://en.wikipedia.org/wiki/1950s
+Score : 3.151536
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:33:14 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.018881628
+Signature: null
+Metadata: 
+
+22 : http://en.wikipedia.org/wiki/Wikipedia:General_disclaimer
+Score : 3.105344
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.1174729
+Signature: null
+Metadata: 
+
+22 : http://en.wikipedia.org/wiki/Category:1960s_in_India
+Score : 2.645323
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:33:14 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.019992312
+Signature: null
+Metadata: 
+
+22 : http://en.wikipedia.org/wiki/St._Joseph%27s_School_(Baramulla)
+Score : 2.181355
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:33:14 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.02124183
+Signature: null
+Metadata: 
+
+22 : http://en.wikipedia.org/wiki/Category:1950s_in_India
+Score : 2.646401
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:33:14 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.018881628
+Signature: null
+Metadata: 
+
+22 : http://en.wikipedia.org/wiki/Main_Page
+Score : 1.96879
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.1174729
+Signature: null
+Metadata: 
+
+22 : http://en.wikipedia.org/wiki/Category:1990s_establishments_in_India
+Score : 3.143591
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.058481783
+Signature: null
+Metadata: 
+
+22 : http://en.wikipedia.org/wiki/Category:1955_establishments_in_India
+Score : 2.772685
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:33:14 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.018881628
+Signature: null
+Metadata: 
+
+22 : http://en.wikipedia.org/wiki/Bihar_National_College
+Score : 2.161754
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.018518519
+Signature: null
+Metadata: 
+
+22 : http://en.wikipedia.org/wiki/Category:1960_establishments_in_India
+Score : 2.771606
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:33:14 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.019992312
+Signature: null
+Metadata: 
+
+22 : http://en.wikipedia.org/wiki/Assam_Chah_Mazdoor_Sangha
+Score : 3.151536
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:33:14 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.018881628
+Signature: null
+Metadata: 
+
+22 : http://en.wikipedia.org/wiki/Category:1900s_establishments_by_country
+Score : 2.333192
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.019607844
+Signature: null
+Metadata: 
+
+22 : http://en.wikipedia.org/wiki/Category_talk:1950s_establishments_in_India
+Score : 2.090753
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:33:14 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.018881628
+Signature: null
+Metadata: 
+
+22 : http://en.wikipedia.org/wiki/Category:1947_establishments_in_India
+No Score for : http://en.wikipedia.org/wiki/Category:1947_establishments_in_India
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:26 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 1.0
+Signature: null
+Metadata: 
+
+22 : http://en.wikipedia.org/wiki/Special:RecentChangesLinked/Category:1960s_establishments_in_India
+Score : 2.013904
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:33:14 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.019992312
+Signature: null
+Metadata: 
+
+22 : http://en.wikipedia.org/wiki/Wikipedia:File_Upload_Wizard
+Score : 2.97906
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.1174729
+Signature: null
+Metadata: 
+
+22 : http://en.wikipedia.org/wiki/Category:1966_establishments_in_India
+Score : 2.771606
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:33:14 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.019992312
+Signature: null
+Metadata: 
+
+22 : http://en.wikipedia.org/wiki/Category:1904_establishments_in_India
+Score : 2.871013
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.040849674
+Signature: null
+Metadata: 
+
+22 : http://en.wikipedia.org/wiki/Category:1970s_establishments_in_India
+Score : 3.143591
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.058481783
+Signature: null
+Metadata: 
+
+22 : http://en.wikipedia.org/wiki/Category:1890_establishments_in_India
+Score : 2.982599
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.018518519
+Signature: null
+Metadata: 
+
+22 : http://en.wikipedia.org/wiki/Category:1882_establishments_in_India
+Score : 2.905067
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.03774929
+Signature: null
+Metadata: 
+
+22 : http://en.wikipedia.org/wiki/Category:1881_establishments_in_India
+Score : 2.905067
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.03774929
+Signature: null
+Metadata: 
+
+22 : http://en.wikipedia.org/wiki/Category_talk:1880s_establishments_in_India
+Score : 2.092564
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.01923077
+Signature: null
+Metadata: 
+
+22 : http://en.wikipedia.org/wiki/Category:1907_establishments_in_India
+Score : 2.871013
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.040849674
+Signature: null
+Metadata: 
+
+22 : http://en.wikipedia.org/wiki/Portal:Contents
+Score : 2.726492
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.1174729
+Signature: null
+Metadata: 
+
+22 : http://en.wikipedia.org/wiki/Category:1980s_establishments_in_India
+Score : 3.143591
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.058481783
+Signature: null
+Metadata: 
+
+22 : http://en.wikipedia.org/wiki/Category:1887_establishments_in_India
+Score : 2.905067
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.03774929
+Signature: null
+Metadata: 
+
+22 : http://en.wikipedia.org/wiki/Category:1908_establishments_in_India
+Score : 2.871013
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.040849674
+Signature: null
+Metadata: 
+
+22 : http://en.wikipedia.org/wiki/Special:WhatLinksHere/Category:1950s_establishments_in_India
+Score : 2.014983
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:33:14 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.018881628
+Signature: null
+Metadata: 
+
+22 : http://en.wikipedia.org/wiki/Category:1850s_establishments_in_India
+Score : 2.963922
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.01923077
+Signature: null
+Metadata: 
+
+22 : http://en.wikipedia.org/wiki/Mianwali_District
+Score : 3.166368
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:33:14 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.02124183
+Signature: null
+Metadata: 
+
+22 : http://en.wikipedia.org/wiki/Category:1956_establishments_in_India
+No Score for : http://en.wikipedia.org/wiki/Category:1956_establishments_in_India
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:26 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 1.0188817
+Signature: null
+Metadata: 
+
+22 : http://en.wikipedia.org/wiki/Category:1901_establishments_by_country
+Score : 2.408666
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:33:14 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.02124183
+Signature: null
+Metadata: 
+
+22 : http://en.wikipedia.org/wiki/Anyonya_Co-operative_Bank_Limited
+Score : 3.172024
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.018518519
+Signature: null
+Metadata: 
+
+22 : http://en.wikipedia.org/wiki/Category:1879_establishments_in_India
+Score : 2.982599
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.018518519
+Signature: null
+Metadata: 
+
+22 : http://en.wikipedia.org/wiki/Brojomohun_College
+Score : 2.414322
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.018518519
+Signature: null
+Metadata: 
+
+22 : http://en.wikipedia.org/wiki/Help:Category
+Score : 1.96879
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.1174729
+Signature: null
+Metadata: 
+
+22 : http://en.wikipedia.org/wiki/Category:1957_establishments_in_India
+Score : 2.772685
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:33:14 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.018881628
+Signature: null
+Metadata: 
+
+22 : http://en.wikipedia.org/wiki/Category:1885_establishments_in_India
+Score : 2.526216
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.03774929
+Signature: null
+Metadata: 
+
+22 : http://en.wikipedia.org/wiki/Special:RecentChangesLinked/Category:1950s_establishments_in_India
+Score : 2.014983
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:33:14 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.018881628
+Signature: null
+Metadata: 
+
+22 : http://en.wikipedia.org/wiki/Category_talk:1900s_establishments_in_India
+Score : 2.030111
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.019607844
+Signature: null
+Metadata: 
+
+22 : http://en.wikipedia.org/wiki/Category:1900_establishments_in_India
+Score : 2.871013
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.040849674
+Signature: null
+Metadata: 
+
+22 : http://en.wikipedia.org/wiki/Category:1889_establishments_in_the_British_Empire
+Score : 2.540606
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.018518519
+Signature: null
+Metadata: 
+
+22 : http://en.wikipedia.org/wiki/Special:RecentChangesLinked/Category:1901_establishments_in_India
+Score : 2.029815
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:33:14 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.02124183
+Signature: null
+Metadata: 
+
+22 : http://en.wikipedia.org/wiki/India
+Score : 3.484195
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.1174729
+Signature: null
+Metadata: 
+
+22 : http://en.wikipedia.org/wiki/Special:RecentChangesLinked/Category:1889_establishments_in_India
+Score : 2.035471
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.018518519
+Signature: null
+Metadata: 
+
+22 : http://en.wikipedia.org/wiki/Category:20th-century_establishments_in_India
+Score : 2.84051
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.116963565
+Signature: null
+Metadata: 
+
+22 : http://en.wikipedia.org/wiki/Category:1880_establishments_in_India
+Score : 2.905067
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.03774929
+Signature: null
+Metadata: 
+
+22 : http://en.wikipedia.org/wiki/Category:1820s_establishments_in_India
+Score : 2.963922
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.01923077
+Signature: null
+Metadata: 
+
+22 : http://en.wikipedia.org/wiki/Category:1810s_establishments_in_India
+Score : 2.963922
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.01923077
+Signature: null
+Metadata: 
+
+22 : http://en.wikipedia.org/wiki/Category:1951_establishments_in_India
+Score : 2.772685
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:33:14 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.018881628
+Signature: null
+Metadata: 
+
+22 : http://en.wikipedia.org/wiki/Special:WhatLinksHere/Category:1901_establishments_in_India
+Score : 2.029815
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:33:14 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.02124183
+Signature: null
+Metadata: 
+
+22 : http://en.wikipedia.org/wiki/Help:Contents
+Score : 2.726492
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.1174729
+Signature: null
+Metadata: 
+
+22 : http://en.wikipedia.org/wiki/Special:RecentChanges
+Score : 2.347641
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.1174729
+Signature: null
+Metadata: 
+
+22 : http://en.wikipedia.org/wiki/Category:1884_establishments_in_India
+Score : 2.905067
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.03774929
+Signature: null
+Metadata: 
+
+22 : http://en.wikipedia.org/wiki/Special:SpecialPages
+Score : 2.347641
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.1174729
+Signature: null
+Metadata: 
+
+22 : http://en.wikipedia.org/wiki/Category:1950_establishments_in_India
+Score : 2.772685
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:33:14 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.018881628
+Signature: null
+Metadata: 
+
+22 : http://en.wikipedia.org/wiki/Special:WhatLinksHere/Category:1889_establishments_in_India
+Score : 2.035471
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.018518519
+Signature: null
+Metadata: 
+
+22 : http://en.wikipedia.org/wiki/Bikaner_Camel_Corps
+Score : 3.172024
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.018518519
+Signature: null
+Metadata: 
+
+22 : http://en.wikipedia.org/wiki/Category:1790s_establishments_in_India
+Score : 2.963922
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.01923077
+Signature: null
+Metadata: 
+
+22 : http://en.wikipedia.org/wiki/Category:1880s_establishments_in_Asia
+Score : 2.774496
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.01923077
+Signature: null
+Metadata: 
+
+22 : http://en.wikipedia.org/wiki/Category:1899_establishments_in_India
+Score : 2.976943
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:33:14 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.02124183
+Signature: null
+Metadata: 
+
+22 : http://en.wikipedia.org/wiki/1960s
+Score : 3.150458
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:33:14 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.019992312
+Signature: null
+Metadata: 
+
+22 : http://en.wikipedia.org/wiki/Sri_Krishna_Devaraya_Andhra_Bhasha_Nilayam
+Score : 3.040085
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:33:14 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.02124183
+Signature: null
+Metadata: 
+
+22 : http://en.wikipedia.org/wiki/Special:WhatLinksHere/Category:1900s_establishments_in_India
+Score : 1.954341
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.019607844
+Signature: null
+Metadata: 
+
+22 : http://en.wikipedia.org/wiki/Category:1910_establishments_in_India
+Score : 2.976943
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:33:14 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.02124183
+Signature: null
+Metadata: 
+
+22 : http://en.wikipedia.org/wiki/Ahmadiyya
+Score : 3.172024
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.018518519
+Signature: null
+Metadata: 
+
+22 : http://en.wikipedia.org/wiki/Special:WhatLinksHere/Category:1960s_establishments_in_India
+Score : 2.013904
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:33:14 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.019992312
+Signature: null
+Metadata: 
+
+22 : http://en.wikipedia.org/wiki/Category:1860s_establishments_in_India
+Score : 2.963922
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.01923077
+Signature: null
+Metadata: 
+
+22 : http://en.wikipedia.org/wiki/Wikipedia:Community_portal
+Score : 1.96879
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.1174729
+Signature: null
+Metadata: 
+
+22 : http://en.wikipedia.org/wiki/Category:1930s_establishments_in_India
+Score : 3.143591
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.058481783
+Signature: null
+Metadata: 
+
+22 : http://en.wikipedia.org/wiki/Category:1889_establishments_by_country
+Score : 2.414322
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.018518519
+Signature: null
+Metadata: 
+
+22 : http://en.wikipedia.org/wiki/Wikipedia:Contact_us
+Score : 2.347641
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.2349458
+Signature: null
+Metadata: 
+
+22 : http://en.wikipedia.org/wiki/Category:1963_establishments_in_India
+Score : 2.771606
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:33:14 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.019992312
+Signature: null
+Metadata: 
+
+22 : http://en.wikipedia.org/wiki/1901
+Score : 3.166368
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:33:14 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.02124183
+Signature: null
+Metadata: 
+
+22 : http://en.wikipedia.org/wiki/Category:1901_establishments_in_the_British_Empire
+Score : 2.53495
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:33:14 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.02124183
+Signature: null
+Metadata: 
+
+22 : http://en.wikipedia.org/wiki/Bharati_Bhavan_Library
+Score : 2.666889
+Version: 7
+Status: 1 (db_unfetched)
+Fetch time: Mon May 11 06:32:48 IST 2015
+Modified time: Thu Jan 01 05:30:00 IST 1970
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 0.018518519
+Signature: null
+Metadata: 
+
+**************************
+Printing all FETCHED URLs: 6
+**************************
+22 : http://en.wikipedia.org/wiki/Category:1889_establishments_in_India
+No Score for : http://en.wikipedia.org/wiki/Category:1889_establishments_in_India
+Version: 7
+Status: 2 (db_fetched)
+Fetch time: Tue May 12 06:32:46 IST 2015
+Modified time: Mon May 11 06:32:46 IST 2015
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 1.0562679
+Signature: f39eec4e66c7e918c6288c8f2ffe2c1d
+Metadata: Content-Type: text/html_pst_: success(1), lastModified=0
+
+22 : http://en.wikipedia.org/wiki/Category:1960s_establishments_in_India
+No Score for : http://en.wikipedia.org/wiki/Category:1960s_establishments_in_India
+Version: 7
+Status: 2 (db_fetched)
+Fetch time: Tue May 12 06:33:06 IST 2015
+Modified time: Mon May 11 06:33:06 IST 2015
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 1.0784742
+Signature: dd496fe581bd0c80d7dd565ff114eb75
+Metadata: Content-Type: text/html_pst_: success(1), lastModified=0
+
+22 : http://en.wikipedia.org/wiki/Category:1901_establishments_in_India
+No Score for : http://en.wikipedia.org/wiki/Category:1901_establishments_in_India
+Version: 7
+Status: 2 (db_fetched)
+Fetch time: Tue May 12 06:33:11 IST 2015
+Modified time: Mon May 11 06:33:11 IST 2015
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 1.0620916
+Signature: d611c3e865988e16cd91e486ed755606
+Metadata: Content-Type: text/html_pst_: success(1), lastModified=0
+
+22 : http://en.wikipedia.org/wiki/Category:1950s_establishments_in_India
+No Score for : http://en.wikipedia.org/wiki/Category:1950s_establishments_in_India
+Version: 7
+Status: 2 (db_fetched)
+Fetch time: Tue May 12 06:33:00 IST 2015
+Modified time: Mon May 11 06:33:00 IST 2015
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 1.0773635
+Signature: 7ade993274345848356d06f55fe3bd3a
+Metadata: Content-Type: text/html_pst_: success(1), lastModified=0
+
+22 : http://en.wikipedia.org/wiki/Category:1880s_establishments_in_India
+No Score for : http://en.wikipedia.org/wiki/Category:1880s_establishments_in_India
+Version: 7
+Status: 2 (db_fetched)
+Fetch time: Tue May 12 06:32:35 IST 2015
+Modified time: Mon May 11 06:32:35 IST 2015
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 1.0754986
+Signature: 6ef1dbd2bf48d905ff92ea20d2326c6a
+Metadata: Content-Type: text/html_pst_: success(1), lastModified=0
+
+22 : http://en.wikipedia.org/wiki/Category:1900s_establishments_in_India
+No Score for : http://en.wikipedia.org/wiki/Category:1900s_establishments_in_India
+Version: 7
+Status: 2 (db_fetched)
+Fetch time: Tue May 12 06:32:40 IST 2015
+Modified time: Mon May 11 06:32:40 IST 2015
+Retries since fetch: 0
+Retry interval: 86400 seconds (1 days)
+Score: 1.139804
+Signature: d7a9f6b56e814deeaf596d1430ff11d6
+Metadata: Content-Type: text/html_pst_: success(1), lastModified=0

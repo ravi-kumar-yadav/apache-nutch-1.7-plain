@@ -19,6 +19,7 @@ package org.apache.nutch.crawl;
 
 import java.io.BufferedWriter;
 import java.io.FileWriter;
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
@@ -31,6 +32,7 @@ import org.apache.hadoop.conf.Configured;
 import org.apache.hadoop.fs.FileStatus;
 import org.apache.hadoop.fs.FileSystem;
 import org.apache.hadoop.fs.Path;
+import org.apache.hadoop.io.Text;
 import org.apache.hadoop.mapred.JobConf;
 import org.apache.hadoop.util.Tool;
 import org.apache.hadoop.util.ToolRunner;
@@ -53,7 +55,24 @@ public class Crawl extends Configured implements Tool {
 	public static ArrayList<URLDetails> urlSet = new ArrayList<URLDetails>();
 	public static final Logger LOG = LoggerFactory.getLogger(Crawl.class);
 	public static long TOPN = 1000;
-
+	public static Classifier classifier;  
+	
+	//** To be deleted
+	private static HashSet<String> tempSeedURL = new HashSet<String>();
+	
+	static {
+		tempSeedURL.add("http://en.wikipedia.org/wiki/Category:1880s_establishments_in_India");
+		tempSeedURL.add("http://en.wikipedia.org/wiki/Category:1889_establishments_in_India");
+		tempSeedURL.add("http://en.wikipedia.org/wiki/Category:1900s_establishments_in_India");
+		tempSeedURL.add("http://en.wikipedia.org/wiki/Category:1901_establishments_in_India");
+		tempSeedURL.add("http://en.wikipedia.org/wiki/Category:1940s_establishments_in_India");
+		tempSeedURL.add("http://en.wikipedia.org/wiki/Category:1941_establishments_in_India");
+		tempSeedURL.add("http://en.wikipedia.org/wiki/Category:1947_establishments_in_India");
+		tempSeedURL.add("http://en.wikipedia.org/wiki/Category:1950s_establishments_in_India");
+		tempSeedURL.add("http://en.wikipedia.org/wiki/Category:1956_establishments_in_India");
+		tempSeedURL.add("http://en.wikipedia.org/wiki/Category:1960s_establishments_in_India");
+	}
+	
   private static String getDate() {
     return new SimpleDateFormat("yyyyMMddHHmmss").format
       (new Date(System.currentTimeMillis()));
@@ -161,10 +180,11 @@ public class Crawl extends Configured implements Tool {
 	
 	// Method to write training data (containing Negative examples followed by Positive examples) present in "buffer",
 	// in a file "train.txt" stored in config entry present by the name of "trainingFile"
+	System.out.println("Training File : " + trainingFile);
 	appendTrainingData(buffer.toString(),trainingFile);
 
 	
-	Classifier classifier = new Classifier(getConf());
+	classifier = new Classifier(getConf());
 	
 	//** Train Classifier from train.txt(trainingFile)
 	classifier.learn(trainingFile);
@@ -210,9 +230,75 @@ public class Crawl extends Configured implements Tool {
     // initialize crawlDb
     injector.inject(crawlDb, rootUrlDir);										// *Injecting URLs to CrawlDB, Only Once for any Crawl Process
     																			//** Injector runs only once that too before initial round of run 
+    
+    
+    //** To be Deleted
+    StringBuffer tempSB = new StringBuffer();
+    
+    
+    // Starts the Classifier at a given Port with a Model that is already learnt and stored in a file "/ClassifierModels/model"
+    //System.out.println("classifier.startClassifier");
+    classifier.startClassifier();
+    
+    
     int i;
-    for (i = 0; i < depth; i++) {             // generate new segment			//** Each round means --> One Segment, Within each Segment multiple things happen
-    	System.out.println("********Generator Generates");
+    for (i = 0; i < depth; i++) {             
+    	
+    	//Print CrawlDb before next fetch 
+    	    			
+    			// fetch all unfetched-urls in CrawlDb		    	
+				CrawlDBScanner cdbsn = new CrawlDBScanner(NutchConfiguration.create());
+    			HashSet<String> all_unfetched_url = cdbsn.run2(new String[]{crawlDb.toString(),prioritizeDb.toString(),"http://en\\.wikipedia\\.org/wiki/.*","-s","db_unfetched","-text"});
+    			tempSB.append("\n**************************");
+    			tempSB.append("\nPrinting all UNFETCHED URLs: " + all_unfetched_url.size());
+    			tempSB.append("\n**************************");
+    			// print CrawlDatum for each url in CrawlDb
+    			CrawlDbReader cdbrdr = new CrawlDbReader();
+    			for(String each_url : all_unfetched_url){
+    				CrawlDatum cd1 = cdbrdr.readUrlDatum(crawlDb.toString(),each_url,getConf());
+    				tempSB.append("\n" + (i+1) + "1 : " + each_url);
+    				if (!tempSeedURL.contains(each_url)) {
+	    				URLDetails urlDetails = prioritizer.getURLDetails(each_url, crawlDb.toString());
+	    				if(urlDetails==null) {
+	    					tempSB.append("N0 information on link : "+each_url);
+	    				} else {
+	        				// Compute Scores for Seven Features
+	    					tempSB.append("\nScore : " + urlDetails.calculateFinalScore(classifier));
+	    				}
+    				} else {
+    					tempSB.append("\nNo Score for : " + each_url);
+    				}
+    				tempSB.append("\n" + cd1);
+    			}
+    			
+    			
+    			// fetch all fetched-urls in CrawlDb
+    			HashSet<String> all_fetched_url = cdbsn.run2(new String[]{crawlDb.toString(),prioritizeDb.toString(),"http://en\\.wikipedia\\.org/wiki/.*","-s","db_fetched","-text"});
+    			tempSB.append("\n**************************");
+    			tempSB.append("\nPrinting all FETCHED URLs: " + all_fetched_url.size());
+    			tempSB.append("\n**************************");
+    			// print CrawlDatum for each url in CrawlDb
+    			cdbrdr = new CrawlDbReader();
+    			for(String each_url : all_fetched_url){
+    				CrawlDatum cd1 = cdbrdr.readUrlDatum(crawlDb.toString(),each_url,getConf());
+    				tempSB.append("\n" + (i+1) + "1 : " + each_url);
+    				if (!tempSeedURL.contains(each_url)){
+    					URLDetails urlDetails = prioritizer.getURLDetails(each_url, crawlDb.toString());
+	    				if(urlDetails==null) {
+	    					tempSB.append("N0 information on link : "+each_url);
+	    				} else {
+	        				// Compute Scores for Seven Features
+	    					tempSB.append("\nScore : " + urlDetails.calculateFinalScore(classifier));
+	    				}
+    				} else {
+    					tempSB.append("\nNo Score for : " + each_url);
+    				}
+    				tempSB.append("\n" + cd1);
+    			}
+    	
+    	
+      // generate new segment			//** Each round means --> One Segment, Within each Segment multiple things happen
+      System.out.println("********Generator Generates");
       Path[] segs = generator.generate(crawlDb, segments, -1, topN, System.currentTimeMillis());		//** Generator job for each Segment
           
       if (segs == null) {
@@ -270,9 +356,9 @@ public class Crawl extends Configured implements Tool {
       System.out.println("prioritizer.init");
       prioritizer.init(getConf(), linkDb);
       
-      // Starts the Classifier at a given Port with a Model that is already learnt and stored in a file "/ClassifierModels/model"
-      //System.out.println("classifier.startClassifier");
-      classifier.startClassifier();
+//      // Starts the Classifier at a given Port with a Model that is already learnt and stored in a file "/ClassifierModels/model"
+//      //System.out.println("classifier.startClassifier");
+//      classifier.startClassifier();
       
       System.out.println("Total URLs in 'res' : "+res.size());
       System.out.println("Printing res URLs : ");
@@ -325,9 +411,9 @@ public class Crawl extends Configured implements Tool {
 			 
 		}else {
 			//buffer.append("\n");
-			buffer.append("-1 "+urlDetails.getFeatureVector());
+			buffer.append("-1 "+urlDetails.getFeatureVector() + "\n");
 			//outBuffer.append("\n");
-			outBuffer.append("-1 "+urlDetails.getFeatureVector()+"\t"+urlDetails.getUrl()+" - "+urlDetails.getAnchorTextWords()+" "+urlDetails.getFinalScore());
+			outBuffer.append("-1 "+urlDetails.getFeatureVector()+"\t"+urlDetails.getUrl()+" - "+urlDetails.getAnchorTextWords()+" "+urlDetails.getFinalScore() + "\n");
 			
 			//** Updating Negative Feature Pool
 			URLDetails.negUrlDetailBase.getAnchorTextWords().addAll(urlDetails.getAnchorTextWords());
@@ -353,10 +439,8 @@ public class Crawl extends Configured implements Tool {
       for (int j = 0; j < TOPN && j<urlSet.size(); j++) {
 		URLDetails details = urlSet.get(j);
 		if (details.getFinalScore() >= 0) {
-			buffer.append("\n");
-			buffer.append("1 " + details.getFeatureVector());
-			outBuffer.append("\n");
-			outBuffer.append("1 "+details.getFeatureVector()+"\t"+details.getUrl()+" - "+details.getAnchorTextWords()+" "+details.getFinalScore());
+			buffer.append("1 " + details.getFeatureVector() + "\n");
+			outBuffer.append("1 "+details.getFeatureVector()+"\t"+details.getUrl()+" - "+details.getAnchorTextWords()+" "+details.getFinalScore() + "\n");
 			
 			//** Updating Positive Feature Pool
 			URLDetails.posUrlDetailBase.getAnchorTextWords().addAll(details.getAnchorTextWords());
@@ -387,6 +471,8 @@ public class Crawl extends Configured implements Tool {
 			
 		}
 		
+		//prioritizer.processPrioritizeJob(crawlDb.toString(), linkDb.toString(),getConf().get(output) , getConf(), "crawldb", "http://en\\.wikipedia\\.org/wiki/.*","-s", "db_unfetched");
+		
 		if (LOG.isInfoEnabled()) {
 			LOG.info("crawl finished: " + dir);				//** Crawl finished message
 		}
@@ -400,11 +486,86 @@ public class Crawl extends Configured implements Tool {
 		System.out.println("outbuffer content : \n"+outBuffer.toString());
 		
 		createIncTrainingFile(outBuffer.toString(),getConf().get("outputFolder")+"/"+i);
+		
+		//Print CrawlDb before after fetch 
+		
+				// fetch all unfetched-urls in CrawlDb		    	
+				cdbsn = new CrawlDBScanner(NutchConfiguration.create());
+				all_unfetched_url = cdbsn.run2(new String[]{crawlDb.toString(),prioritizeDb.toString(),"http://en\\.wikipedia\\.org/wiki/.*","-s","db_unfetched","-text"});
+				tempSB.append("\n**************************");
+				tempSB.append("\nPrinting all UNFETCHED URLs: " + all_unfetched_url.size());
+				tempSB.append("\n**************************");
+				// print CrawlDatum for each url in CrawlDb
+				cdbrdr = new CrawlDbReader();
+				for(String each_url : all_unfetched_url){
+					CrawlDatum cd1 = cdbrdr.readUrlDatum(crawlDb.toString(),each_url,getConf());
+					tempSB.append("\n" + (i+1) + "2 : " + each_url);
+					if (!tempSeedURL.contains(each_url)){
+						URLDetails urlDetails = prioritizer.getURLDetails(each_url, crawlDb.toString());
+	    				if(urlDetails==null) {
+	    					tempSB.append("N0 information on link : "+each_url);
+	    				} else {
+	        				// Compute Scores for Seven Features
+	    					tempSB.append("\nScore : " + urlDetails.calculateFinalScore(classifier));
+	    				}
+					} else {
+						tempSB.append("\nNo Score for : " + each_url);
+    				}
+					tempSB.append("\n" + cd1);
+				}
+				
+				
+				// fetch all fetched-urls in CrawlDb
+				all_fetched_url = cdbsn.run2(new String[]{crawlDb.toString(),prioritizeDb.toString(),"http://en\\.wikipedia\\.org/wiki/.*","-s","db_fetched","-text"});
+				tempSB.append("\n**************************");
+				tempSB.append("\nPrinting all FETCHED URLs: " + all_fetched_url.size());
+				tempSB.append("\n**************************");
+				// print CrawlDatum for each url in CrawlDb
+				cdbrdr = new CrawlDbReader();
+				for(String each_url : all_fetched_url){
+					CrawlDatum cd1 = cdbrdr.readUrlDatum(crawlDb.toString(),each_url,getConf());
+					tempSB.append("\n" + (i+1) + "2 : " + each_url);
+					if (!tempSeedURL.contains(each_url)){
+						URLDetails urlDetails = prioritizer.getURLDetails(each_url, crawlDb.toString());
+	    				if(urlDetails==null) {
+	    					tempSB.append("N0 information on link : "+each_url);
+	    				} else {
+	        				// Compute Scores for Seven Features
+	    					tempSB.append("\nScore : " + urlDetails.calculateFinalScore(classifier));
+	    				}
+					} else {
+						tempSB.append("\nNo Score for : " + each_url);
+    				}
+					tempSB.append("\n" + cd1);
+				}
+		
+		
 		System.out.println("Om Namah Shivay!!!");
     }
+    
+    
+    writeToTempFile(tempSB.toString(), getConf().get("PROJECT_HOME") + "/urlData.txt");
+    
+    
     return 0;
   }
 
+  
+  private void writeToTempFile(String tempData, String tempFile) {
+		// TODO Auto-generated method stub
+		  //incTrainingFile
+		  
+		  try {
+				BufferedWriter writer = new BufferedWriter(new FileWriter(tempFile,false));
+				writer.write(tempData);
+				writer.close();
+			} catch (Exception e) {
+				// TODO Auto-generated catch block
+				e.printStackTrace();
+			}
+	  }
+  
+  
   
   private void createIncTrainingFile(String incTrainData, String incTrainingFile) {
 	// TODO Auto-generated method stub
@@ -418,7 +579,7 @@ public class Crawl extends Configured implements Tool {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-}
+  }
 
 
 //Method to write training data (containing Positive and Negative example) present in "out",

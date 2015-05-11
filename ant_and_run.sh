@@ -10,4 +10,4 @@ rm -rf crawl_output
 mkdir crawl_output
 ant clean
 ant
-time runtime/local/bin/nutch  crawl urls/ -dir crawl_output/ -depth 2 -topN 10  > tempRun.txt
+time runtime/local/bin/nutch  crawl urls/ -dir crawl_output/ -depth 3 -topN 3  > tempRun.txt

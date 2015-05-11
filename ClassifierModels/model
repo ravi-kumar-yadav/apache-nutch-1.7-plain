@@ -5,7 +5,7 @@ TinySVM Version 0.09
 1 # kernel parameter -s
 1 # kernel parameter -r
 empty # kernel parameter -u
-15 10 190680 0 # number of SVs/BSVs/number of training data/L1 loss 
+15 10 332328 0 # number of SVs/BSVs/number of training data/L1 loss 
 -2.406337195873201 # threshold b
 -0.831269698567985 1:1 2:0.6666666999999999 3:1 4:1 5:1 6:1 7:1.2258064
 -0.5657187247221054 1:0.6666666999999999 2:0.6666666999999999 3:0.6666666999999999 4:1 5:1 6:1 7:1.0963618

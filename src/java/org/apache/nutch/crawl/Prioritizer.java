@@ -72,6 +72,7 @@ public class Prioritizer {
 	public URLDetails getURLDetails(String url, String crawlDbPath) {
 		try {
 			URLDetails urlDetails = new URLDetails(url);
+			//System.out.println("Shri Ram : " + url);
 			Inlinks links = linkDbReader.getInlinks(new Text(url));
 			if (links == null) {
 		          System.out.println(" - no link information. in Prioritizer");
@@ -100,8 +101,10 @@ public class Prioritizer {
 		        }
 		} catch (IOException e) {
 			// TODO Auto-generated catch block
+			System.out.println(url);
 			e.printStackTrace();
 		} catch (Exception e) {
+			System.out.println(url);
 			e.printStackTrace();
 		}
 		return null;

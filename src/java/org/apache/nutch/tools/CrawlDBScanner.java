@@ -103,6 +103,7 @@ public class CrawlDBScanner extends Configured implements Tool,
       CrawlDatum val = values.next();
       output.collect(key, val);
       //System.out.println("Data in Reducer Text : " + key.toString());
+      //** Added by Ravi to collect all urls that qualifies the RegEx and are still unfetched
       urlinfo.add(key.toString());
     }
   }
