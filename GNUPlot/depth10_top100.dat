@@ -1,0 +1,12 @@
+# Col-1: number of depth
+# Col-2, 3 : Standard_Nutch_Crawler_Accuracy, Resource_Constraint_Crawler_Accuracy
+1	19.0		76.0
+2	4.0		72.0
+3	12.0		54.0
+4	11.0		32.0
+5	14.0		51.0
+6	10.0		48.0
+7	17.0		43.0
+8	42.0		62.0
+9	36.0		45.0
+10	30.0		36.0
